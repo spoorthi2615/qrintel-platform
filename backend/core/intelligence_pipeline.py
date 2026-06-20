@@ -134,7 +134,7 @@ def enrich_scan(
         enrichment["errors"].append(err)
 
     # ── Module 2: Visual Phishing (URL only, optional — requires network) ─────
-    if payload_type == "URL" and os.environ.get("SAFEQR_VISUAL_PHISHING") == "1":
+    if payload_type == "URL" and os.environ.get("QRIntel_VISUAL_PHISHING") == "1":
         from core.visual_phishing import analyze_url_content
         phishing_result, err = _safe_run(analyze_url_content, "VisualPhishing", payload)
         if phishing_result:

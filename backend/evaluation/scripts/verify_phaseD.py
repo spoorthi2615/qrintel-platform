@@ -14,7 +14,7 @@ def revalidate_system():
         ],
         "benign": [
             "https://google.com",
-            "https://github.com/safeqr"
+            "https://github.com/QRIntel"
         ],
         "login_portals": [
             "https://paypal.com/signin",

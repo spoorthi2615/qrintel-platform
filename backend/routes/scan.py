@@ -182,7 +182,7 @@ def _analyze_payload(payload: str, scan_method: str = 'manual', image_bytes: byt
     screenshot_path = None
     visual_result = {}
     
-    if payload_type == 'URL' and os.environ.get('SAFEQR_SCREENSHOT') != '0':
+    if payload_type == 'URL' and os.environ.get('QRIntel_SCREENSHOT') != '0':
         try:
             shot_res = capture_screenshot(payload)
             screenshot_b64 = shot_res.get("screenshot_b64")

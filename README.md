@@ -1,8 +1,8 @@
-# SafeQR 2.0 — QR Security Intelligence Platform
+# QRIntel 2.0 — QR Security Intelligence Platform
 
 ## Overview
 
-SafeQR 2.0 is a production-quality QR code security scanning platform that detects phishing, malicious URLs, fake UPI payment strings, and tampered QR codes in real-time using a weighted multi-factor risk engine.
+QRIntel 2.0 is a production-quality QR code security scanning platform that detects phishing, malicious URLs, fake UPI payment strings, and tampered QR codes in real-time using a weighted multi-factor risk engine.
 
 ## Tech Stack
 
@@ -17,7 +17,7 @@ SafeQR 2.0 is a production-quality QR code security scanning platform that detec
 ## Project Structure
 
 ```
-safeqr/
+QRIntel/
 ├── backend/
 │   ├── app.py                    # Flask entry point
 │   ├── requirements.txt

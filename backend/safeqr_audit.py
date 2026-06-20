@@ -1,8 +1,8 @@
 """
-safeqr_audit.py
+QRIntel_audit.py
 Comprehensive validation suite for QRIntel 2.0 backend.
 Covers Phases 1-10 and 12-14 of the audit spec.
-Run from: d:\projects\safe qr\backend\
+Run from: d:\projects\QRIntel\backend\
 """
 
 import sys, os, json, time, base64, traceback, sqlite3, urllib.parse, io

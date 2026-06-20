@@ -1,4 +1,4 @@
-# SAFEQR_INTEL_DATASET Specifications
+# QRIntel_INTEL_DATASET Specifications
 
 ## 1. Dataset Categories & Statistics
 - **Benign QR**: 500 samples (Real government/educational portals).

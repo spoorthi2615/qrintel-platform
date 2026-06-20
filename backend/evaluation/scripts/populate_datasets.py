@@ -31,7 +31,7 @@ def create_dataset_metadata(category: str, count: int) -> list:
         # Select realistic payloads based on category
         if category == "benign_qr":
             domain = random.choice(BENIGN_DOMAINS)
-            payload = f"https://{domain}/portal/index.html?ref=safeqr"
+            payload = f"https://{domain}/portal/index.html?ref=QRIntel"
             label = "SAFE"
             ground_truth = {"domain": domain, "category": "education_or_gov", "is_tampered": False}
         elif category == "phishing_qr":

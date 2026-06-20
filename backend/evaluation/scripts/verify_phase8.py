@@ -48,7 +48,7 @@ def run_verification():
     print(f"  Latency: {lat_malicious * 1000:.2f} ms")
     
     # Known Benign
-    test_benign = "https://github.com/safeqr"
+    test_benign = "https://github.com/QRIntel"
     start = time.time()
     res_benign = check_cache(test_benign)
     lat_benign = time.time() - start

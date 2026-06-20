@@ -5,7 +5,7 @@ Follow these steps to execute and reproduce the evaluation results:
 ## Quick Start
 1. Navigate to the backend directory:
    ```bash
-   cd "d:\projects\safe qr\backend"
+   cd "d:\projects\QRIntel\backend"
    ```
 2. Run the main evaluation benchmark pipeline:
    ```bash
