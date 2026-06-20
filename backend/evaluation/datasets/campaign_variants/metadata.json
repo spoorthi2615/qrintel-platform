@@ -1,0 +1,3605 @@
+{
+  "samples": [
+    {
+      "sample_id": "campaign_variants_001",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_002",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_003",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_004",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_005",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_006",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_007",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_008",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_009",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_010",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_011",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_012",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_013",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_014",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_015",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_016",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_017",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_018",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_019",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_020",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_021",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_022",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_023",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_024",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_025",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_026",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_027",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_028",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_029",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_030",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_031",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_032",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_033",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_034",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_035",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_036",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_037",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_038",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_039",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_040",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_041",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_042",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_043",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_044",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_045",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_046",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_047",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_048",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_049",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_050",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_051",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_052",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_053",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_054",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_055",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_056",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_057",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_058",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_059",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_060",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_061",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_062",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_063",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_064",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_065",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_066",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_067",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_068",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_069",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_070",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_071",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_072",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_073",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_074",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_075",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_076",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_077",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_078",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_079",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_080",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_081",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_082",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_083",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_084",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_085",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_086",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_087",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_088",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_089",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_090",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_091",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_092",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_093",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_094",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_095",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_096",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_097",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_098",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_099",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_100",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_101",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_102",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_103",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_104",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_105",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_106",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_107",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_108",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_109",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_110",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_111",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_112",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_113",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_114",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_115",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_116",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_117",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_118",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_119",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_120",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_121",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_122",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_123",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_124",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_125",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_126",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_127",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_128",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_129",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_130",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_131",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_132",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_133",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_134",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_135",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_136",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_137",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_138",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_139",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_140",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_141",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_142",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_143",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_144",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_145",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_146",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_147",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_148",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_149",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_150",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_151",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_152",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_153",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_154",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_155",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_156",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_157",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_158",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_159",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_160",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_161",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_162",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_163",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_164",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_165",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_166",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_167",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_168",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_169",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_170",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_171",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_172",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_173",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_174",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_175",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_176",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_177",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_178",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_179",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_180",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_181",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_182",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_183",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_184",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_185",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_186",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_187",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen4.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 4,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_188",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_189",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen3.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 3,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_190",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_191",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_192",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_193",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_194",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_195",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_196",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_197",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_198",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_beta-mutated-gen2.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_BETA",
+        "generation": 2,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_199",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_gamma-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_GAMMA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    },
+    {
+      "sample_id": "campaign_variants_200",
+      "dataset": "QRIntel",
+      "category": "campaign_variants",
+      "payload": "http://camp_alpha-mutated-gen1.top/verify",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "campaign": "CAMP_ALPHA",
+        "generation": 1,
+        "ttp_fingerprint": {
+          "tlds": [
+            ".top"
+          ]
+        }
+      },
+      "notes": "Generated benchmark record for campaign_variants"
+    }
+  ],
+  "total": 200
+}

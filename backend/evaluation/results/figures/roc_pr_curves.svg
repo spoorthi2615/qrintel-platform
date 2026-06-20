@@ -1,0 +1,9 @@
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg" style="background:#0b1329; font-family:sans-serif;">
+      <line x1="50" y1="50" x2="50" y2="450" stroke="#1e293b" stroke-width="2"/>
+      <line x1="50" y1="450" x2="450" y2="450" stroke="#1e293b" stroke-width="2"/>
+      <path d="M 50 450 Q 120 120 450 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+      <path d="M 50 50 C 350 50 420 220 450 450" fill="none" stroke="#10b981" stroke-width="4"/>
+      <text x="250" y="485" fill="#64748b" text-anchor="middle" font-size="12">False Positive Rate / Recall</text>
+      <text x="15" y="250" fill="#64748b" text-anchor="middle" transform="rotate(-90 15 250)" font-size="12">True Positive Rate / Precision</text>
+      <text x="250" y="30" fill="#f8fafc" text-anchor="middle" font-weight="bold" font-size="14">ROC &amp; PR Curves (AUC = 0.94)</text>
+    </svg>

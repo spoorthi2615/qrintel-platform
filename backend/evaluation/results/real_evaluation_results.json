@@ -1,0 +1,1835 @@
+{
+  "core_detection": {
+    "accuracy": 0.799,
+    "precision": 0.997,
+    "recall": 0.6,
+    "f1_score": 0.749,
+    "fpr": 0.002,
+    "fnr": 0.4,
+    "tp": 300,
+    "tn": 499,
+    "fp": 1,
+    "fn": 200,
+    "errors": 0
+  },
+  "performance": {
+    "avg_detection_latency_ms": 20420.5,
+    "total_samples_evaluated": 1000,
+    "total_evaluation_time_sec": 418.9
+  },
+  "logs": {
+    "false_positives": [
+      {
+        "url": "https://wellsfargo.com",
+        "status": "SUSPICIOUS",
+        "confidence": 49.5,
+        "expected": "SAFE",
+        "latency": 86.12177085876465,
+        "reasons": [],
+        "error": null
+      }
+    ],
+    "false_negatives": [
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1000.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.559445142745972,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1002.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.791719436645508,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1004.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.750593662261963,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1001.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.920701265335083,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1003.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.83061957359314,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1005.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.3890554904937744,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1006.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2687759399414062,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1008.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.232318878173828,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1007.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.4113829135894775,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1009.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.3256826400756836,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1010.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.21142315864563,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1013.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.152169704437256,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1012.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2032859325408936,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1015.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.701955795288086,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1014.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.869779109954834,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1018.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.6719307899475098,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1016.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.8275010585784912,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1017.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.770895004272461,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1011.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.5521509647369385,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1019.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.2416155338287354,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1020.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.4179551601409912,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1024.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.5189170837402344,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1021.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.7121658325195312,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1023.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.8550899028778076,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1022.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.418551445007324,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1026.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.414806842803955,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1025.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.5618982315063477,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1028.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.5593619346618652,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1030.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.670905590057373,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1027.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.713026762008667,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1029.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.504469871520996,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1033.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.9956896305084229,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1032.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2098796367645264,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1031.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.3039791584014893,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1035.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.0210983753204346,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1034.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1307296752929688,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1037.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.9269030094146729,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1036.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1884231567382812,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1038.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.6539502143859863,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1040.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.5581822395324707,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1039.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.793936014175415,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1044.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.6758325099945068,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1043.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.787686824798584,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1042.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.9433715343475342,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1041.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.054192543029785,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1045.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.8396663665771484,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1046.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1019301414489746,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1050.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 1.9594900608062744,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1048.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.086801528930664,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1047.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2017886638641357,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1049.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1309568881988525,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1051.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1564042568206787,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1053.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.06227707862854,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1052.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.536956310272217,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1055.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.258037805557251,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1054.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.415968656539917,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1056.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.351301431655884,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1057.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.354323148727417,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1058.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.38582181930542,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1060.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.461784839630127,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1062.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.36356520652771,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1061.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.463801622390747,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1059.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.527902364730835,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1066.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2826504707336426,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1067.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.2977137565612793,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1064.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.447479009628296,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1063.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.617377758026123,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1065.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.5120937824249268,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1068.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.6252031326293945,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1069.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.48360538482666,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1073.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.292066812515259,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1071.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.2062976360321045,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1075.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.1463863849639893,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1074.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.19801926612854,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1070.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.4945802688598633,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1076.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.237456798553467,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1079.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.0578720569610596,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1077.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.534510850906372,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1072.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.696794271469116,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1078.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.5195586681365967,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1082.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.9982852935791016,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1085.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.9718739986419678,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1081.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.397350549697876,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1087.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.0131566524505615,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1084.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.4738054275512695,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1083.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.5227138996124268,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1089.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.306352138519287,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1096.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.9616310596466064,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1088.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.6262073516845703,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1086.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.827157497406006,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1080.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.2040019035339355,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1094.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.294973611831665,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1097.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.1100335121154785,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1090.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.044933795928955,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1103.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.0610172748565674,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1092.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.806913375854492,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1091.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8534514904022217,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1095.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.661116123199463,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1099.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.217602491378784,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1102.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1820998191833496,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1106.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.031651496887207,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1098.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.305788993835449,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1093.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.886378765106201,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1101.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.3154609203338623,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1100.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.1379027366638184,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1107.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.1033129692077637,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1104.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.273082733154297,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1105.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.3494532108306885,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1108.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.6280465126037598,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1111.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.6103134155273438,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1109.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.7051608562469482,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1110.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 2.9223272800445557,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1113.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.231328248977661,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1112.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.29941725730896,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1117.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.3834939002990723,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1115.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.55021333694458,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1118.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.507009506225586,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1114.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.7518272399902344,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1116.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.903259754180908,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1121.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.7844607830047607,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1120.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8641891479492188,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1125.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9966464042663574,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1129.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.735147714614868,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1126.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.005231618881226,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1123.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.096239328384399,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1127.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9261558055877686,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1119.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.272837400436401,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1130.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.770974636077881,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1122.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.33169150352478,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1124.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.485399961471558,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1128.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.44387412071228,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1138.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8522603511810303,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1149.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.7035303115844727,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1145.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8866255283355713,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1143.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.95035457611084,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1147.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.90934681892395,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1131.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.6936352252960205,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1132.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.742218971252441,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1151.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.904564142227173,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1133.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.7838826179504395,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1135.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.653029918670654,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1146.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.411746501922607,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1136.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.73013162612915,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1141.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.59188985824585,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1134.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.008374452590942,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1139.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.7084009647369385,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1150.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.501129627227783,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1140.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.760321617126465,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1137.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.905406475067139,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1148.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.717045307159424,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1142.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.856862306594849,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1152.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9673116207122803,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1153.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9263200759887695,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1144.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.8828394412994385,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1154.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9278368949890137,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1157.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.5960381031036377,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1155.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.108562469482422,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1159.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.380019426345825,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1156.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.897566080093384,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1160.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.4401562213897705,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1158.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.870431423187256,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1161.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.7316861152648926,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1169.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.3330955505371094,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1162.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8595974445343018,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1166.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.4954004287719727,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1164.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.8108322620391846,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1165.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.5925087928771973,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1163.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.9197046756744385,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1167.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.859917163848877,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1170.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.805037498474121,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1172.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.6647212505340576,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1168.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.008004188537598,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1174.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.612515926361084,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1171.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.239592552185059,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1175.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.6524085998535156,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1173.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.152144432067871,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1177.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.70700740814209,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1179.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.7423558235168457,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1176.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.0107033252716064,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1178.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 3.945383310317993,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1184.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.064484119415283,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1185.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.081948518753052,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1180.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.34244441986084,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1182.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.40288233757019,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1181.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.570617198944092,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://wellsfargoonline.wellsfargosecure.login-wellsfargo-1192.com/verify.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.290758848190308,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1183.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.819653272628784,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://signin.ebay.com.ebayisapi.dll.user-verify.secure-ebay-1190.com/ebayisapi.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.634747505187988,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1199.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.344758987426758,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1186.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.897751092910767,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1188.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.856201887130737,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://accounts-google.signin.google-security-verify-1194.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.660988092422485,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1187.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.985824108123779,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://amazon-claims-update-orders-verify-1197.com/gp/flex/sign-in",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.590101957321167,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://login-microsoft.accounts.live.com.verify-microsoft-1193.com/auth.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.792390584945679,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://steam-community-login-secure-auth-1198.com/id",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.637418508529663,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://paypal-security-check-verification-portal-1196.com/webscr",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 4.729243755340576,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://facebook-security-verification-pages-login-1189.com/checkpoint",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.098318338394165,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://chaseonline.chaseportals.chase.com.login-verify-chase-1191.com/secure.php",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.042908668518066,
+        "reasons": [],
+        "error": null
+      },
+      {
+        "url": "http://netflix-billing-update-account-portal-1195.com/login",
+        "status": "SAFE",
+        "confidence": 50.0,
+        "expected": "MALICIOUS",
+        "latency": 5.033219337463379,
+        "reasons": [],
+        "error": null
+      }
+    ]
+  }
+}

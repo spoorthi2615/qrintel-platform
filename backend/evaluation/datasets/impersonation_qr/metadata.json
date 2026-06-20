@@ -1,0 +1,2605 @@
+{
+  "samples": [
+    {
+      "sample_id": "impersonation_qr_001",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_002",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_003",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_004",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_005",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_006",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_007",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_008",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_009",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_010",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_011",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_012",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_013",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_014",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_015",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_016",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_017",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_018",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_019",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_020",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_021",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_022",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_023",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_024",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_025",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_026",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_027",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_028",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_029",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_030",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_031",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_032",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_033",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_034",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_035",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_036",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_037",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_038",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_039",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_040",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_041",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_042",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_043",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_044",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_045",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_046",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_047",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_048",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_049",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_050",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_051",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_052",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_053",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_054",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_055",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_056",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_057",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_058",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_059",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_060",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_061",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_062",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_063",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_064",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_065",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_066",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_067",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_068",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_069",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_070",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_071",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_072",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_073",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_074",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_075",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_076",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_077",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_078",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_079",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_080",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_081",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_082",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_083",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_084",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_085",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_086",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_087",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_088",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_089",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_090",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_091",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_092",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_093",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_094",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_095",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_096",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_097",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_098",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_099",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_100",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_101",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_102",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_103",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_104",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_105",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_106",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_107",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_108",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_109",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_110",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_111",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_112",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_113",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_114",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_115",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_116",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_117",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_118",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_119",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_120",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_121",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_122",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_123",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_124",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_125",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_126",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_127",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_128",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_129",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_130",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_131",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_132",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_133",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_134",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_135",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_136",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_137",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_138",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_139",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_140",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_141",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_142",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_143",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_144",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_145",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_146",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_147",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_148",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_149",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_150",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_151",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_152",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_153",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_154",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_155",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_156",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_157",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_158",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_159",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_160",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_161",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_162",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_163",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_164",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_165",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_166",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_167",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_168",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_169",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_170",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_171",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_172",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_173",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_174",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_175",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_176",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_177",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_178",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_179",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_180",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_181",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_182",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_183",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://icici-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "ICICI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_184",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_185",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_186",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_187",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_188",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_189",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_190",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_191",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paypal-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "PayPal",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_192",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_193",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://google-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Google",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_194",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_195",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://sbi-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "SBI",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_196",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_197",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://paytm-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Paytm",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_198",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://microsoft-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Microsoft",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_199",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://amazon-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "Amazon",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    },
+    {
+      "sample_id": "impersonation_qr_200",
+      "dataset": "QRIntel",
+      "category": "impersonation_qr",
+      "payload": "https://hdfc-verify-credentials.xyz/auth",
+      "label": "MALICIOUS",
+      "created_at": "2026-06-19T22:58:15Z",
+      "ground_truth": {
+        "impersonated_brand": "HDFC",
+        "typosquat": true
+      },
+      "notes": "Generated benchmark record for impersonation_qr"
+    }
+  ],
+  "total": 200
+}

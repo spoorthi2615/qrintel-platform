@@ -1,0 +1,163 @@
+{
+  "benign": [
+    {
+      "id": "b1",
+      "payload": "https://gov.in/portal/schemes",
+      "type": "URL",
+      "label": "SAFE",
+      "meta": {
+        "source": "Government portal"
+      }
+    },
+    {
+      "id": "b2",
+      "payload": "https://harvard.edu/academics",
+      "type": "URL",
+      "label": "SAFE",
+      "meta": {
+        "source": "Legitimate university"
+      }
+    },
+    {
+      "id": "b3",
+      "payload": "upi://pay?pa=merchant@okaxis&pn=Grocery&am=150.00",
+      "type": "UPI",
+      "label": "SAFE",
+      "meta": {
+        "source": "Verified merchant VPA"
+      }
+    },
+    {
+      "id": "b4",
+      "payload": "WIFI:S:Library_Guest;T:WPA;P:ReadBooks;;",
+      "type": "WIFI",
+      "label": "SAFE",
+      "meta": {
+        "source": "Public facility"
+      }
+    }
+  ],
+  "phishing": [
+    {
+      "id": "p1",
+      "payload": "http://secure-login-verify-update.xyz/login.php",
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "PhishTank suspicious keyword + TLD"
+      }
+    },
+    {
+      "id": "p2",
+      "payload": "http://192.168.1.105:8080/bank/confirm",
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "IP domain + HTTP bank spoof"
+      }
+    },
+    {
+      "id": "p3",
+      "payload": "https://bit.ly/3gHk8jF",
+      "type": "URL",
+      "label": "SUSPICIOUS",
+      "meta": {
+        "source": "Shortener with obfuscated target"
+      }
+    },
+    {
+      "id": "p4",
+      "payload": "http://paytm-refund-support-claims.top/verify",
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "OpenPhish brand domain scam"
+      }
+    }
+  ],
+  "upi_fraud": [
+    {
+      "id": "u1",
+      "payload": "upi://pay?pa=cashback-reward@ybl&pn=PaytmRefundAgent&am=-500.00",
+      "type": "UPI",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "Negative refund scam VPA"
+      }
+    },
+    {
+      "id": "u2",
+      "payload": "upi://pay?pa=malicious-receiver&pn=FraudMerchant",
+      "type": "UPI",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "Missing mandatory params + invalid VPA"
+      }
+    }
+  ],
+  "tampered": [
+    {
+      "id": "t1",
+      "payload": "https://legit-site.com",
+      "tampered": true,
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "QR-on-QR sticker replacement (quiet zone intrusion)"
+      }
+    },
+    {
+      "id": "t2",
+      "payload": "https://example.com/pay",
+      "tampered": true,
+      "type": "URL",
+      "label": "SUSPICIOUS",
+      "meta": {
+        "source": "Edge artifact alteration detected"
+      }
+    }
+  ],
+  "impersonation": [
+    {
+      "id": "i1",
+      "payload": "https://paytm-refund-login.com/secure",
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "Paytm Brand Impersonation"
+      }
+    },
+    {
+      "id": "i2",
+      "payload": "https://signin-microsoft-accounts.xyz/login",
+      "type": "URL",
+      "label": "MALICIOUS",
+      "meta": {
+        "source": "Microsoft Impersonation"
+      }
+    }
+  ],
+  "campaign_variants": [
+    {
+      "id": "cv1_g1",
+      "payload": "http://paytm-refund-verify-gen1.xyz/secure",
+      "campaign": "PAYTM_SCAM",
+      "generation": 1,
+      "label": "MALICIOUS"
+    },
+    {
+      "id": "cv1_g2",
+      "payload": "http://paytm-refund-secure-gen2.top/secure",
+      "campaign": "PAYTM_SCAM",
+      "generation": 2,
+      "label": "MALICIOUS"
+    },
+    {
+      "id": "cv1_g3",
+      "payload": "http://paytm-refund-update-gen3.xyz/login/verify",
+      "campaign": "PAYTM_SCAM",
+      "generation": 3,
+      "label": "MALICIOUS"
+    }
+  ]
+}

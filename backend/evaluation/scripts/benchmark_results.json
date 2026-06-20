@@ -1,0 +1,496 @@
+{
+  "metrics": {
+    "TP": 21,
+    "FP": 2,
+    "TN": 18,
+    "FN": 9,
+    "Recall": 0.7,
+    "Precision": 0.9130434782608695,
+    "Accuracy": 0.78,
+    "F1": 0.7924528301886793
+  },
+  "fps": [
+    {
+      "url": "https://login.live.com/",
+      "label": "BENIGN_LOGIN",
+      "pred": "MALICIOUS",
+      "score": 68.8,
+      "breakdown": {
+        "Credential Harvesting Indicators": 20,
+        "Infrastructure Reputation": 30,
+        "Typosquatting": 45,
+        "Brand Detection": 10
+      },
+      "reasons": [
+        "Phishing keywords found: login",
+        "Suspicious keyword in domain: login",
+        "Domain visually similar to brand \"aave\"",
+        "Target brand detected in content: Microsoft"
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [
+          "sign in"
+        ],
+        "credential_harvesting_confidence": 10,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": "<!-- Copyright (C) Microsoft Corporation. All rights reserved. --><!DOCTYPE html><!-- ServerInfo: SN1PEPF0002F0B1 16.0.31088.5 LocVer:0 --><!-- PreprocessInfo: CBA-0612_222942:27ec9748c000000, 2026-06-12T22:56:23.7162792-07:00 - Version: 16,0,31088,5 --><!-- RequestLCID: 1033, Market:EN-US, PrefCountry: US, LangLCID: 1033, LangISO: EN --><html dir=\"ltr\" lang=\"EN-US\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"/><link rel=\"preconnect\" href=\"https://acctcdn.msauth.net\" crossorigin>\n<link rel=\"preconnect\" href=\"https://acctcdn.msftauth.net\" crossorigin>\n<link rel=\"preconnect\" href=\"https://logincdn.msauth.net\" crossorigin>\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n<link rel=\"dns-prefetch\" href=\"https://acctcdn.msauth.net/\">\n<link rel=\"dns-prefetch\" href=\"https://acctcdn.msftauth.net/\">\n<link rel=\"dns-prefetch\" href=\"https://acctcdnmsftuswe2.azureedge.net/\">\n<link rel=\"dns-prefetch\" href=\"https://logincdn.msauth.net/\">\n<link rel=\"dns-prefetch\" href=\"https://logincdn.msftauth.net/\">\n<link rel=\"dns-prefetch\" href=\"https://lgincdnmsftuswe2.azureedge.net/\">\n<link rel=\"preconnect\" href=\"https://ms-sso.copilot.microsoft.com\">\n<link rel=\"preconnect\" href=\"https://ms-sso.copilot.com\">\n<base href=\"https://login.live.com\"/><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">!function(t,e){for(var r in e)t[r]=e[r]}(this,function(t){function e(n){if(r[n])return r[n].exports;var a=r[n]={exports:{},id:n,loaded:!1};return t[n].call(a.exports,a,a.exports,e),a.loaded=!0,a.exports}var r={};return e.m=t,e.c=r,e.p=\"\",e(0)}([function(t,e){!function(t,e){function r(t,e,r){t&&\"function\"==typeof t.addEventListener?t.addEventListener(e,r,!0):t&&t.attachEvent&&t.attachEvent(\"on\"+e,r,!0)}var n=[];r(e,\"load\",function(t){t.target&&\"handle-error-tag\"===t.target.className&&$Loader.On(t.target)}),r(e,\"error\",function(t){t.target&&\"handle-error-tag\"===t.target.className&&$Loader.On(t.target,!0)}),r(t,\"error\",function(t){t&&t.message&&n.push(t.message)}),t.$Errors=n,t.$AddListener=r}(window,document)}]));</script><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">var PROOF = {};PROOF.Type = {SQSA: 6, CSS: 5, DeviceId: 4, Email: 1, AltEmail: 2, SMS: 3, HIP: 8, Birthday: 9, TOTPAuthenticator: 10, RecoveryCode: 11, StrongTicket: 13, TOTPAuthenticatorV2: 14, UniversalSecondFactor: 15, Passkey: 18, Voice: -3};</script><noscript><meta http-equiv=\"Refresh\" content=\"0; URL=https://login.live.com/jsDisabled.srf?mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\"/>Microsoft account requires JavaScript to sign in. This web browser either does not support JavaScript, or scripts are being blocked.<br /><br />To find out whether your browser supports JavaScript, or to allow scripts, see the browser's online help.</noscript><title>Sign in to your Microsoft account</title><meta name=\"robots\" content=\"none\" /><meta name=\"PageID\" content=\"i5030\"/><meta name=\"SiteID\" content=\"38936\"/><meta name=\"ReqLC\" content=\"1033\"/><meta name=\"LocLC\" content=\"1033\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes\"/><link rel=\"preload\" href=\"https://logincdn.msauth.net/shared/5/brs/r2/brs_5.394.756.json\" as=\"fetch\" data-bundle=\"brs\" crossorigin=\"anonymous\" /><link rel=\"preload\" href=\"https://logincdn.msauth.net/shared/5/js/login_v2_en_dnfGabSZq4GAotcL_X_6WA2.js\" as=\"script\" data-bundle=\"main\" crossorigin=\"anonymous\" /><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">var ServerData = {\"arrChainedAuthProbeUrls\":[\"https://ms-sso.copilot.microsoft.com/common/buildinfo\",\"https://ms-sso.copilot.com/common/buildinfo\"],\"arrFedNames\":[],\"clientEvents\":{\"appId\":\"-\",\"appInsightsConfig\":{\"instrumentationKey\":\"69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293\",\"webAnalyticsConfiguration\":{\"autoCapture\":{\"click\":0,\"jsError\":1}}},\"autoPost\":true,\"autoPostDelay\":1000,\"defaultEventName\":\"IDUX_MSAClientTelemetryEvent_WebWatson\",\"flush\":60000,\"maxEvents\":1,\"minEvents\":1,\"pltDelay\":500,\"serviceID\":2,\"telemetryEnabled\":true,\"useOneDSEventApi\":true},\"correlationId\":\"9bd8857f4d254c8784ea0fea8a5e27ea\",\"eCBBrandMode\":2,\"eCBHeaderMode\":0,\"environment\":\"PROD\",\"fActivateFocusOnApprovalNumberRemoteNGC\":false,\"fActivateKeyboardFocusOnApprovalNumber\":true,\"fAllowCancel\":false,\"fAllowGrayOutLightBox\":true,\"fAllowPhoneSignIn\":true,\"fAllowSkypeNameLogin\":true,\"fAppendQueryParamsFromRawQueryStringToPostUrl\":true,\"fApplicationInsightsEnabled\":false,\"fApplyAsciiRegexOnInput\":true,\"fAutoCaptureClicks\":false,\"fAutoCaptureEvents\":false,\"fAutoCaptureJsErrors\":false,\"fBreakBrandingSigninString\":true,\"fCBBrandShowValueProp\":true,\"fCBShowSignUp\":true,\"fCBUseModernCobranding\":true,\"fCheckApiCanary\":false,\"fCheckProofForAliases\":false,\"fDeprecateHipLockout\":true,\"fDisableAnimationIfAnimationEndUnsupported\":false,\"fDisableGctUpdatesForEntra\":false,\"fDisableUpdatedPollingHook\":false,\"fDoIfExists\":false,\"fEnableAriaLiveUpdates\":true,\"fEnableClientBrsConfig\":true,\"fEnableClientPerf\":false,\"fEnableClientTelemetry\":false,\"fEnableCssAnimation\":true,\"fEnableExternalHostedPrivacyLink\":false,\"fEnableOneDSClientTelemetry\":true,\"fEnableShowPickerCredObservable\":false,\"fEnableUserStateFix\":false,\"fEnableWebAuthNTelemetry\":true,\"fFixUICrashForApiRequestHandler\":false,\"fFixUrlResetPassword\":false,\"fHIPError\":false,\"fHasBackgroundColor\":false,\"fHasError\":false,\"fHideLearnMoreLink\":false,\"fHideLoginDesc\":false,\"fHidePhoneCobasiInOtherSignIn\":true,\"fInstrumentationEnabled\":true,\"fIsBoundAccount\":false,\"fIsExternalFederationDisallowed\":false,\"fIsFidoSupported\":false,\"fIsGamingFlow\":false,\"fIsHosted\":false,\"fIsOtcLoginDisabled\":false,\"fIsPasskeySupportEnabled\":true,\"fIsPopupUI\":false,\"fIsRTLMarket\":false,\"fIsRemoteConnectSignup\":false,\"fIsRemoteNGCSupported\":true,\"fIsSimplifiedChildAccountCreation\":false,\"fIsUpdatedAutocompleteEnabled\":true,\"fIsV2FluentBackgroundEnabled\":true,\"fIsWLRootedSiteID\":true,\"fIsWriteWloptCookieDisallowed\":true,\"fKMSIEnabled\":false,\"fLoadGamepadNavigationModule\":true,\"fObscuredFederatedSignInOptions\":false,\"fPrefixCookieDomainEnabled\":false,\"fProbeChainedAuthDomains\":true,\"fRemoveMinWidthFromLightBox\":true,\"fRemoveSMSFilterGCTFix\":true,\"fShowButtons\":true,\"fShowCookieBanner\":false,\"fShowCopyDebugDetailsLink\":false,\"fShowForgotUsernameLink\":true,\"fShowLearnMoreV2\":true,\"fShowProgressForPasskeyAutofill\":true,\"fShowPushNotifications\":true,\"fShowPushNotificationsDerisk\":true,\"fShowSignInOptionsAsButton\":true,\"fShowSignInWithFidoOnUsernameView\":true,\"fShowSignInWithGitHubOnlyOnCredPicker\":true,\"fShowSkypeUsernameHint\":false,\"fShowSwitchUser\":true,\"fShowUpdatedKoreanPrivacyFooter\":true,\"fSwitchDisambig\":false,\"fTenantBrandingCdnAddEventHandlers\":true,\"fUpdateConfigInit\":true,\"fUpgradeEVCert\":true,\"fUseFakeHIP\":false,\"fUseInlinePhoneNumber\":true,\"fUseMinHeight\":true,\"fUsePasswordPeek\":false,\"fUseResetPwdUrlForPwdRequiredErr\":true,\"fUseResponsiveSizing\":true,\"fUseSameSite\":true,\"fUseWebviewFidoCustomProtocol\":false,\"fWebNgcFS\":false,\"hpgid\":33,\"html\":[],\"iAllowedIdentities\":0,\"iApplicationInsightsEnabledPercentage\":0,\"iAutoSSOState\":0,\"iBackgroundImage\":4,\"iBannerEnvironment\":0,\"iBindProvider\":-1,\"iClientLogLevel\":0,\"iDefaultLoginOptions\":3,\"iFedState\":0,\"iGctFederationFlags\":3,\"iLBodyDefault\":0,\"iLoginMode\":1,\"iLoginStringsVariantId\":0,\"iMaxPollErrors\":5,\"iMaxStackForKnockoutAsyncComponents\":10000,\"iPawnIcon\":1,\"iPollingInterval\":1,\"iPollingTimeout\":60,\"iProductIcon\":0,\"iPromotedFedCredType\":0,\"iRequestLCID\":1033,\"iResetPwdStringID\":1,\"iServerExecutionTime\":4,\"iUXMode\":1,\"loader\":{\"cdnRoots\":[\"https://logincdn.msauth.net/\",\"https://logincdn.msftauth.net/\",\"https://lgincdnmsftuswe2.azureedge.net/\"]},\"oAppCobranding\":{},\"oCaptchaInfo\":{\"sArkoseEnforcementTimeout\":\"30000\",\"urlArkoseEnforcement\":\"https://iframe.arkoselabs.com/B7D8911C-5CC8-A9A3-35B0-554ACEE604DA/index.html?mkt=en\",\"urlDfp\":\"https://fpt.live.com?session_id=9bd8857f4d254c8784ea0fea8a5e27ea&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI\",\"urlHipChallenge\":\"https://client.prod.repmap.microsoft.com/GetHIP/GetHIP/HIP?id=15034&type=visual&fid=1420042167&rand=80765034&mkt=EN-US\"},\"oFedSignupPostParams\":null,\"oGetCredTypeResult\":null,\"oPost\":{},\"oWhiteLblFooterTxtOne\":{},\"oWhiteLblFooterTxtTwo\":{},\"oWhiteLblFooterURLs\":{},\"oWhiteLblProps\":{\"Logo\":\"\",\"LogoAltText\":\"\",\"LogoText\":\"\",\"ShowWLHeader\":true},\"sAppVersion\":\"\",\"sApplicationInsightsInstrumentationKey\":\"\",\"sAxisBundleVersion\":\"5.394.756\",\"sCBBrandSubTitle\":\"##li16####B##Hotmail##/B####BR##The smart way to do email - fast, easy and reliable##li8####B##Messenger##/B####BR##Stay in touch with the most important people in your life##li10####B##SkyDrive##/B####BR##Free, password-protected online storage\",\"sCBBrandTitle\":\"sign up\",\"sCBHeaderText\":\"\",\"sCBUpTxt1\":\"\",\"sCBUpTxt2\":\"\",\"sCID\":\"\",\"sClientFlight\":\"\",\"sClientId\":\"\",\"sClientRingId\":\"R2\",\"sCobrandId\":\"\",\"sConsumerDomains\":\"\",\"sCookieDomain\":\"login.live.com\",\"sErrTxt\":\"\",\"sFTName\":\"PPFT\",\"sFTTag\":\"<input type=\\\"hidden\\\" name=\\\"PPFT\\\" id=\\\"i0327\\\" value=\\\"-DgyaJzuETKB*u1XCcxN7aI6ugLPkLLG0F8JU3Z*cukWkYZUPdZhXLgVdoNapT2duX!mEuZGxvSfmjQtZkTSgSAFqsWH4qKiAey9hQLmbBAx82ZaB2VRcwl2JfrRzTTh5qijs*Mnrnm3*2EbuSYlvqFSfxz3SBMVc*2UdgTSxquM6PqC3H!5AWcuL10VZYzp6CG1CcELKjhMpSS30JhBluYQQGIVkPO14KyLoT7wH3dM5UliRrJwgsJHr9L8bxeLWew$$\\\"/>\",\"sFedPartnerName\":\"\",\"sFedQS\":\"wa=wsignin1.0&wtrealm=uri:WindowsLiveID&wctx=contextid%3DAA2B86DA57C38A49%26opid%3D9AA50DA3433CD1AF%26bk%3D1781944658\",\"sForwardedClientId\":\"\",\"sHostBuildNumber\":\"16.0.31088.5\",\"sNGCNonce\":\"-CluLYLe0gUzQWAkDr7DxIb6aQTgH2FmL9v!zGGT2wQPm67SQPscBc2JX0Yj6kEJsEfAob*tOa1EUSCv!S7V2kaDkHep2MM33tBp1eY7rc!x8\",\"sNetworkType\":\"\",\"sPOST_NewUser\":\"\",\"sPOST_PaginatedLoginState\":\"\",\"sPOST_PaginatedLoginStateRNGCDefaultType\":\"\",\"sPOST_PaginatedLoginStateRNGCEntropy\":\"\",\"sPOST_PaginatedLoginStateRNGCSLK\":\"\",\"sPOST_Type\":\"\",\"sPOST_Username\":\"\",\"sPageId\":\"i5030\",\"sPrefSMSCountry\":\"IN\",\"sPrefillUsername\":\"\",\"sProofConfirm\":\"\",\"sProofType\":\"\",\"sRandomBlob\":\"P\",\"sRawQueryString\":\"contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&bk=1781944658\",\"sRequestCountry\":\"IN\",\"sSMSCtryPhoneData\":\"AF~Afghanistan~93!!!AL~Albania~355!!!DZ~Algeria~213!!!AD~Andorra~376!!!AO~Angola~244!!!AQ~Antarctica~672!!!AG~Antigua and Barbuda~1!!!AR~Argentina~54!!!AM~Armenia~374!!!AW~Aruba~297!!!AC~Ascension Island~247!!!AU~Australia~61!!!AT~Austria~43!!!AZ~Azerbaijan~994!!!BS~Bahamas~1!!!BH~Bahrain~973!!!BD~Bangladesh~880!!!BB~Barbados~1!!!BY~Belarus~375!!!BE~Belgium~32!!!BZ~Belize~501!!!BJ~Benin~229!!!BM~Bermuda~1!!!BT~Bhutan~975!!!BO~Bolivia~591!!!BQ~Bonaire~599!!!BA~Bosnia and Herzegovina~387!!!BW~Botswana~267!!!BV~Bouvet Island~47!!!BR~Brazil~55!!!IO~British Indian Ocean Territory~44!!!VG~British Virgin Islands~1!!!BN~Brunei~673!!!BG~Bulgaria~359!!!BF~Burkina Faso~226!!!BI~Burundi~257!!!CV~Cabo Verde~238!!!KH~Cambodia~855!!!CM~Cameroon~237!!!CA~Canada~1!!!KY~Cayman Islands~1!!!CF~Central African Republic~236!!!TD~Chad~235!!!CL~Chile~56!!!CN~China~86!!!CX~Christmas Island~61!!!CC~Cocos (Keeling) Islands~61!!!CO~Colombia~57!!!KM~Comoros~269!!!CG~Congo~242!!!CD~Congo (DRC)~243!!!CK~Cook Islands~682!!!CR~Costa Rica~506!!!CI~C\u00f4te d'Ivoire~225!!!HR~Croatia~385!!!CU~Cuba~53!!!CW~Cura\u00e7ao~599!!!CY~Cyprus~357!!!CZ~Czechia~420!!!DK~Denmark~45!!!DJ~Djibouti~253!!!DM~Dominica~1!!!DO~Dominican Republic~1!!!EC~Ecuador~593!!!EG~Egypt~20!!!SV~El Salvador~503!!!GQ~Equatorial Guinea~240!!!ER~Eritrea~291!!!EE~Estonia~372!!!ET~Ethiopia~251!!!FK~Falkland Islands~500!!!FO~Faroe Islands~298!!!FJ~Fiji~679!!!FI~Finland~358!!!FR~France~33!!!GF~French Guiana~594!!!PF~French Polynesia~689!!!GA~Gabon~241!!!GM~Gambia~220!!!GE~Georgia~995!!!DE~Germany~49!!!GH~Ghana~233!!!GI~Gibraltar~350!!!GR~Greece~30!!!GL~Greenland~299!!!GD~Grenada~1!!!GP~Guadeloupe~590!!!GU~Guam~1!!!GT~Guatemala~502!!!GG~Guernsey~44!!!GN~Guinea~224!!!GW~Guinea-Bissau~245!!!GY~Guyana~592!!!HT~Haiti~509!!!HN~Honduras~504!!!HK~Hong Kong SAR~852!!!HU~Hungary~36!!!IS~Iceland~354!!!IN~India~91!!!ID~Indonesia~62!!!IR~Iran~98!!!IQ~Iraq~964!!!IE~Ireland~353!!!IM~Isle of Man~44!!!IL~Israel~972!!!IT~Italy~39!!!JM~Jamaica~1!!!XJ~Jan Mayen~47!!!JP~Japan~81!!!JE~Jersey~44!!!JO~Jordan~962!!!KZ~Kazakhstan~7!!!KE~Kenya~254!!!KI~Kiribati~686!!!KR~Korea~82!!!XK~Kosovo~383!!!KW~Kuwait~965!!!KG~Kyrgyzstan~996!!!LA~Laos~856!!!LV~Latvia~371!!!LB~Lebanon~961!!!LS~Lesotho~266!!!LR~Liberia~231!!!LY~Libya~218!!!LI~Liechtenstein~423!!!LT~Lithuania~370!!!LU~Luxembourg~352!!!MO~Macao SAR~853!!!MK~North Macedonia~389!!!MG~Madagascar~261!!!MW~Malawi~265!!!MY~Malaysia~60!!!MV~Maldives~960!!!ML~Mali~223!!!MT~Malta~356!!!MH~Marshall Islands~692!!!MQ~Martinique~596!!!MR~Mauritania~222!!!MU~Mauritius~230!!!YT~Mayotte~262!!!MX~Mexico~52!!!FM~Micronesia~691!!!MD~Moldova~373!!!MC~Monaco~377!!!MN~Mongolia~976!!!ME~Montenegro~382!!!MS~Montserrat~1!!!MA~Morocco~212!!!MZ~Mozambique~258!!!MM~Myanmar~95!!!NA~Namibia~264!!!NR~Nauru~674!!!NP~Nepal~977!!!NL~Netherlands~31!!!AN~Netherlands Antilles (Former)~599!!!NC~New Caledonia~687!!!NZ~New Zealand~64!!!NI~Nicaragua~505!!!NE~Niger~227!!!NG~Nigeria~234!!!NU~Niue~683!!!MP~Northern Mariana Islands~1!!!NO~Norway~47!!!OM~Oman~968!!!PK~Pakistan~92!!!PW~Palau~680!!!PS~Palestinian Authority~970!!!PA~Panama~507!!!PG~Papua New Guinea~675!!!PY~Paraguay~595!!!PE~Peru~51!!!PH~Philippines~63!!!PL~Poland~48!!!PT~Portugal~351!!!QA~Qatar~974!!!RE~R\u00e9union~262!!!RO~Romania~40!!!RU~Russia~7!!!RW~Rwanda~250!!!XS~Saba~599!!!KN~Saint Kitts and Nevis~1!!!LC~Saint Lucia~1!!!PM~Saint Pierre and Miquelon~508!!!VC~Saint Vincent and the Grenadines~1!!!WS~Samoa~685!!!SM~San Marino~378!!!ST~S\u00e3o Tom\u00e9 and Pr\u00edncipe~239!!!SA~Saudi Arabia~966!!!SN~Senegal~221!!!RS~Serbia~381!!!SC~Seychelles~248!!!SL~Sierra Leone~232!!!SG~Singapore~65!!!XE~Sint Eustatius~599!!!SK~Slovakia~421!!!SI~Slovenia~386!!!SB~Solomon Islands~677!!!SO~Somalia~252!!!ZA~South Africa~27!!!SS~South Sudan~211!!!ES~Spain~34!!!LK~Sri Lanka~94!!!SH~St Helena, Ascension, and Tristan da Cunha~290!!!SD~Sudan~249!!!SR~Suriname~597!!!SJ~Svalbard~47!!!SZ~Swaziland~268!!!SE~Sweden~46!!!CH~Switzerland~41!!!SY~Syria~963!!!TW~Taiwan~886!!!TJ~Tajikistan~992!!!TZ~Tanzania~255!!!TH~Thailand~66!!!TL~Timor-Leste~670!!!TG~Togo~228!!!TK~Tokelau~690!!!TO~Tonga~676!!!TT~Trinidad and Tobago~1!!!TA~Tristan da Cunha~290!!!TN~Tunisia~216!!!TR~Turkey~90!!!TM~Turkmenistan~993!!!TC~Turks and Caicos Islands~1!!!TV~Tuvalu~688!!!UM~U.S. Outlying Islands~1!!!VI~U.S. Virgin Islands~1!!!UG~Uganda~256!!!UA~Ukraine~380!!!AE~United Arab Emirates~971!!!UK~United Kingdom~44!!!US~United States~1!!!UY~Uruguay~598!!!UZ~Uzbekistan~998!!!VU~Vanuatu~678!!!VA~Vatican City~379!!!VE~Venezuela~58!!!VN~Vietnam~84!!!WF~Wallis and Futuna~681!!!YE~Yemen~967!!!ZM~Zambia~260!!!ZW~Zimbabwe~263\",\"sSignInUsername\":\"\",\"sSiteId\":\"38936\",\"sUnauthSessionID\":\"9bd8857f4d254c8784ea0fea8a5e27ea\",\"serverDetails\":{\"ri\":\"SN1PEPF0002F0B1\",\"ver\":\"16.0.31088.5\"},\"str\":[],\"strFedInviteBlockedMsg\":\"#~#partnerdomain#~# does't use this service. Please sign in with a Microsoft account or create a new account. <a href=\\\"#~#WLPaneHelpInviteBlockedURL_LS#~#\\\" id=\\\"idPaneHelpInviteBlockedLink9\\\">Learn More</a>\",\"strLWADisclaimerMsg\":\"\",\"strOTCInfoMsg\":\"A single-use code lets you sign in without entering your password. This helps protect your account when you're using someone else's PC. <a href=\\\"http://explore.live.com/windows-live-sign-in-single-use-code-faq\\\" id=\\\"idPaneHelpOTCInfoLink9\\\" target=\\\"_blank\\\">Learn more</a>\",\"strOTCMobileHintMsg\":\"Use the primary phone number you've associated with your Microsoft account. <a href=\\\"http://explore.live.com/windows-live-sign-in-single-use-code-faq\\\" id=\\\"idPaneHelpOTCInfoLink9\\\" target=\\\"_blank\\\">Learn more</a>\",\"strOTCSessionExpiredMsg\":\"Your session has timed out. To request a single use code, please <a href=\\\"javascript:NewOTCRequest()\\\">refresh the page</a>.\",\"strSignInHeader\":\"Sign in\",\"urlAccountQuery\":\"https://account.live.com/query.aspx?uaid=9bd8857f4d254c8784ea0fea8a5e27ea&mkt=EN-US&lc=1033&id=38936\",\"urlAppleFed\":\"\",\"urlApplicationInsightsEndpoint\":\"\",\"urlBehavioralTelemetryScript\":\"\",\"urlCBBrandIFrame\":\"https://sc.imp.live.com/content/dam/imp/surfaces/mail_signin/v3/account/EN-US.html?id=38936&mkt=EN-US\",\"urlCBBrandLogo\":\"\",\"urlCBBrandUpsell\":\"\",\"urlCBCustomJS\":\"\",\"urlCBHeaderIFrame\":\"\",\"urlCBHeaderLogo\":\"\",\"urlCBPartnerPreload\":\"\",\"urlCancel\":\"\",\"urlCdn\":\"https://logincdn.msauth.net/shared/1.0/\",\"urlChangePassword\":\"https://account.live.com/ChangePassword?uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlClientExperiment\":\"https://login.live.com/GetExperimentAssignments.srf\",\"urlDisambigRename\":\"\",\"urlEVCertUpgrade\":\"\",\"urlFed\":\"\",\"urlFedConvertRename\":\"https://account.live.com/security/LoginStage.aspx?lmif=1000&ru=https://login.live.com/login.srf%3Fmkt%3DEN-US%26lc%3D1033%26uaid%3D9bd8857f4d254c8784ea0fea8a5e27ea&mkt=EN-US&lc=1033&cbid=0&id=38936&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlFedSignup\":\"\",\"urlFidoHelp\":\"\",\"urlFidoLogin\":\"\",\"urlFooterHelp\":\"\",\"urlFooterPrivacy\":\"https://login.live.com/gls.srf?urlID=MSNPrivacyStatement&mkt=EN-US&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlFooterTOU\":\"https://login.live.com/gls.srf?urlID=WinLiveTermsOfUse&mkt=EN-US&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlForgotUsername\":\"https://account.live.com/username/recover?wreply=https://login.live.com/login.srf%3flc%3d1033%26mkt%3dEN-US%26contextid%3dAA2B86DA57C38A49%26opid%3d9AA50DA3433CD1AF%26bk%3d1781944658%26uaid%3d9bd8857f4d254c8784ea0fea8a5e27ea&id=38936&mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea&uiflavor=web\",\"urlGetCredentialType\":\"https://login.live.com/GetCredentialType.srf?opid=9AA50DA3433CD1AF&id=38936&mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlGitHubFed\":\"https://github.com/login/oauth/authorize?response_type=code&client_id=e37ffdec11c0245cb2e0&scope=read:user++user:email&redirect_uri=https://login.live.com/HandleGithubResponse.srf&allow_signup=false&state=9AA50DA3433CD1AF\",\"urlGoToAADError\":\"\",\"urlGoogleFed\":\"\",\"urlHIPScript\":\"\",\"urlIPv6Experiment\":\"\",\"urlImpressum\":\"\",\"urlLinkedInFed\":\"\",\"urlLogin\":\"https://login.live.com/login.srf?contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&bk=1781944658&mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlLostAuthenticator\":\"https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fcontextid%3dAA2B86DA57C38A49%26opid%3d9AA50DA3433CD1AF%26bk%3d1781944658&id=38936&uiflavor=web&lostauthenticator=1&uaid=9bd8857f4d254c8784ea0fea8a5e27ea&mkt=EN-US&lc=1033&bk=1781944658\",\"urlMSAccountHelp\":\"https://go.microsoft.com/fwlink/?LinkID=254486\",\"urlManageCreds\":\"\",\"urlMsaStaticMeControl\":\"https://login.live.com/Me.htm?v=3&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlNoCookies\":\"https://login.live.com/cookiesDisabled.srf?uaid=9bd8857f4d254c8784ea0fea8a5e27ea&mkt=EN-US&lc=1033\",\"urlPhoneLinkPrivacyTerms\":\"https://go.microsoft.com/fwlink/p/?linkid=850749#mainyourphonemodule&profile=transparentLight\",\"urlPost\":\"https://login.live.com/ppsecure/post.srf?contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&bk=1781944658&uaid=9bd8857f4d254c8784ea0fea8a5e27ea&pid=0\",\"urlPostAad\":\"\",\"urlPostMsa\":\"\",\"urlProfilePhoto\":\"\",\"urlReportPageLoad\":\"\",\"urlResetPassword\":\"https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fcontextid%3dAA2B86DA57C38A49%26opid%3d9AA50DA3433CD1AF%26bk%3d1781944658&id=38936&uiflavor=web&uaid=9bd8857f4d254c8784ea0fea8a5e27ea&mkt=EN-US&lc=1033&bk=1781944658\",\"urlResetPasswordAad\":\"\",\"urlSessionState\":\"https://login.live.com/GetSessionState.srf?mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlSignUp\":\"https://signup.live.com/signup?contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&bk=1781944658&sru=https://login.live.com/login.srf%3fcontextid%3dAA2B86DA57C38A49%26opid%3d9AA50DA3433CD1AF%26mkt%3dEN-US%26lc%3d1033%26bk%3d1781944658%26uaid%3d9bd8857f4d254c8784ea0fea8a5e27ea&uiflavor=web&lic=1&mkt=EN-US&lc=1033&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlStaySignIn\":\"https://login.live.com/login.srf?contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&mkt=EN-US&lc=1033&bk=1781944658&uaid=9bd8857f4d254c8784ea0fea8a5e27ea\",\"urlSwitch\":\"https://login.live.com/logout.srf?contextid=AA2B86DA57C38A49&opid=9AA50DA3433CD1AF&uaid=9bd8857f4d254c8784ea0fea8a5e27ea&ru=https://account.live.com%3fmkt%3dEN-US%26lc%3d1033%26id%3d38936&bk=1781944658&lm=I\"};\n</script><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">!function(e,r){for(var t in r)e[t]=r[t]}(this,function(e){function r(n){if(t[n])return t[n].exports;var o=t[n]={exports:{},id:n,loaded:!1};return e[n].call(o.exports,o,o.exports,r),o.loaded=!0,o.exports}var t={};return r.m=e,r.c=t,r.p=\"\",r(0)}([function(e,r){!function(){function e(){return l.$Config||l.ServerData||{}}function r(e,r){var t=l.$Debug;t&&t.appendLog&&(r&&(e+=\" '\"+(r.src||r.href||\"\")+\"'\",e+=\", id:\"+(r.id||\"\"),e+=\", async:\"+(r.async||\"\"),e+=\", defer:\"+(r.defer||\"\")),t.appendLog(e))}function t(){var e=l.$B;if(void 0===c)if(e)c=e.IE;else{var r=l.navigator.userAgent;c=r.indexOf(\"MSIE \")!==-1||r.indexOf(\"Trident/\")!==-1}return c}function n(){var e=l.$B;if(void 0===f)if(e)f=e.RE_Edge;else{var r=l.navigator.userAgent;f=r.indexOf(\"Edge\")!==-1}return f}function o(e){var r=e.indexOf(\"?\"),t=r>-1?r:e.length,n=e.lastIndexOf(\".\",t),o=e.substring(n,n+h.length).toLowerCase()===h;return o}function a(){var r=e(),t=r.loader||{};return t.slReportFailure||r.slReportFailure||!1}function i(){var r=e(),t=r.loader||{};return t.redirectToErrorPageOnLoadFailure||!1}function s(){var r=e(),t=r.loader||{};return t.logByThrowing||!1}function d(e){if(!t()&&!n())return!1;var r=e.src||e.href||\"\";if(!r)return!0;if(o(r)){var a,i,s;try{a=e.sheet,i=a&&a.cssRules,s=!1}catch(e){s=!0}if(a&&!i&&s)return!0;if(a&&i&&0===i.length)return!0}return!1}function u(){function t(e){var r=g.getElementsByTagName(\"head\")[0];r.appendChild(e)}function n(e,r,t,n){var d=null;return d=o(e)?a(e):\"script\"===n.toLowerCase()?i(e):s(e,n),r&&(d.id=r),\"function\"==typeof d.setAttribute&&(d.setAttribute(\"crossorigin\",\"anonymous\"),t&&\"string\"==typeof t&&d.setAttribute(\"integrity\",t)),d}function a(e){var r=g.createElement(\"link\");return r.rel=\"stylesheet\",r.type=\"text/css\",r.href=e,r}function i(e){var r=g.createElement(\"script\"),t=g.querySelector(\"script[nonce]\");if(r.type=\"text/javascript\",r.src=e,r.defer=!1,r.async=!1,t){var n=t.nonce||t.getAttribute(\"nonce\");r.setAttribute(\"nonce\",n)}return r}function s(e,r){var t=g.createElement(r);return t.src=e,t}function c(e,r){if(e&&e.length>0&&r)for(var t=0;t<e.length;t++)if(r.indexOf(e[t])!==-1)return!0;return!1}function f(r){var t=e();if(t.cq){var n=c(L,r)?L:x;if(!(n&&n.length>1))return r;for(var o=\"https://\",a=0;a<n.length;a++)if(r.indexOf(n[a])!==-1){var i=n[a+1<n.length?a+1:0],s=r.substring(n[a].length);return n[a].substring(0,o.length)!==o&&(i=o+i,s=s.substring(o.length)),i+s}return r}if(!(x&&x.length>1))return r;for(var d=0;d<x.length;d++)if(0===r.indexOf(x[d]))return x[d+1<x.length?d+1:0]+r.substring(x[d].length);return r}function l(e,t,n,o){return r(\"[$Loader]: \"+(R.failMessage||\"Failed\"),o),b[e].retry<y?(b[e].retry++,v(e,t,n),void u._ReportFailure(b[e].retry,b[e].srcPath)):void(n&&n())}function h(e,t,n,o){if(d(o))return l(e,t,n,o);r(\"[$Loader]: \"+(R.successMessage||\"Loaded\"),o),v(e+1,t,n);var a=b[e].onSuccess;\"function\"==typeof a&&a(b[e].srcPath)}function v(e,o,a){if(e<b.length){var i=b[e];if(!i||!i.srcPath)return void v(e+1,o,a);i.retry>0&&(i.srcPath=f(i.srcPath),i.origId||(i.origId=i.id),i.id=i.origId+\"_Retry_\"+i.retry);var s=n(i.srcPath,i.id,i.integrity,i.tagName);s.onload=function(){h(e,o,a,s)},s.onerror=function(){l(e,o,a,s)},s.onreadystatechange=function(){\"loaded\"===s.readyState?setTimeout(function(){h(e,o,a,s)},500):\"complete\"===s.readyState&&h(e,o,a,s)},t(s),r(\"[$Loader]: Loading '\"+(i.srcPath||\"\")+\"', id:\"+(i.id||\"\"))}else o&&o()}var p=e(),y=p.slMaxRetry||2,m=p.loader||{},x=m.cdnRoots||[],L=m.tenantBrandingCdnRoots||[],R=this,b=[];R.retryOnError=!0,R.successMessage=\"Loaded\",R.failMessage=\"Error\",R.Add=function(e,r,t,n,o,a){e&&b.push({srcPath:e,id:r,retry:n||0,integrity:t,tagName:o||\"script\",onSuccess:a})},R.AddForReload=function(e,r){var t=e.src||e.href||\"\";R.Add(t,\"AddForReload\",e.integrity,1,e.tagName,r)},R.AddIf=function(e,r,t){e&&R.Add(r,t)},R.Load=function(e,r){v(0,e,r)}}var c,f,l=window,g=l.document,h=\".css\";u.On=function(e,r,t){if(!e)throw\"The target element must be provided and cannot be null.\";r?u.OnError(e,t):u.OnSuccess(e,t)},u.OnSuccess=function(e,t){if(!e)throw\"The target element must be provided and cannot be null.\";if(d(e))return u.OnError(e,t);var n=e.src||e.href||\"\",o=a(),s=i();r(\"[$Loader]: Loaded\",e);var c=new u;c.failMessage=\"Reload Failed\",c.successMessage=\"Reload Success\",c.Load(null,function(){if(o)throw\"Unexpected state. ResourceLoader.Load() failed despite initial load success. ['\"+n+\"']\";s&&(document.location.href=\"/error.aspx?err=504\")})},u.OnError=function(e,t){var n=e.src||e.href||\"\",o=a(),s=i();if(!e)throw\"The target element must be provided and cannot be null.\";r(\"[$Loader]: Failed\",e);var d=new u;d.failMessage=\"Reload Failed\",d.successMessage=\"Reload Success\",d.AddForReload(e,t),d.Load(null,function(){if(o)throw\"Failed to load external resource ['\"+n+\"']\";s&&(document.location.href=\"/error.aspx?err=504\")}),u._ReportFailure(0,n)},u._ReportFailure=function(e,r){if(s()&&!t())throw\"[Retry \"+e+\"] Failed to load external resource ['\"+r+\"'], reloading from fallback CDN endpoint\"},l.$Loader=u}()}]));</script><link rel=\"shortcut icon\" href=\"https://logincdn.msauth.net/16.000.31088.5/images/favicon.ico\" /><style type=\"text/css\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">body{display:none;}</style><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">if (top != self){try{top.location.replace(self.location.href);}catch (e){}}else{document.write(unescape('%3C%73') + 'tyle type=\"text/css\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">body{display:block !important;}</style>');}</script><noscript><style type=\"text/css\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">body{display:block !important;}</style></noscript><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">!function(e,r){for(var t in r)e[t]=r[t]}(this,function(e){function r(n){if(t[n])return t[n].exports;var i=t[n]={exports:{},id:n,loaded:!1};return e[n].call(i.exports,i,i.exports,r),i.loaded=!0,i.exports}var t={};return r.m=e,r.c=t,r.p=\"\",r(0)}([function(e,r){var t=window,n=t.navigator;t.g_iSRSFailed=0,t.g_sSRSSuccess=\"\",r.SRSRetry=function(e,r,i,s,a){var o=1,c=unescape(\"%3Cscript type='text/javascript'\");a&&(c+=\" crossorigin='anonymous' integrity='\"+a+\"'\"),c+=\" src='\";var u=unescape(\"'%3E%3C/script%3E\"),S=r;if(n&&n.userAgent&&s&&s!==r){var d=n.userAgent.toLowerCase(),p=d.indexOf(\"edge\")>=0;if(!p){var f=d.match(/chrome\\/([0-9]+)\\./),g=f&&2===f.length&&!isNaN(f[1])&&parseInt(f[1])>54;g&&(S=s)}}t.g_sSRSSuccess.indexOf(e)===-1&&(\"undefined\"==typeof t[e]?(t.g_iSRSFailed=1,i<=o&&document.write(c+S+u)):t.g_sSRSSuccess+=e+\"|\"+i+\",\")}}]));var g_dtFirstByte=new Date();var g_objPageMode = null;</script></head><body><div id=\"root\"></div><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">!function(e,r){for(var t in r)e[t]=r[t]}(this,function(e){function r(n){if(t[n])return t[n].exports;var a=t[n]={exports:{},id:n,loaded:!1};return e[n].call(a.exports,a,a.exports,r),a.loaded=!0,a.exports}var t={};return r.m=e,r.c=t,r.p=\"\",r(0)}([function(e,r){!function(e,r){function t(){var t=r.querySelector(\"link[rel='preload'][data-bundle='main']\"),n=r.createElement(\"script\"),a=r.querySelector(\"script[nonce]\");n.type=\"text/javascript\",n.src=t.getAttribute(\"href\"),n.defer=!0,n.async=!1;for(var o=0;o<t.attributes.length;o++){var i=t.attributes[o];\"rel\"!==i.name&&\"as\"!==i.name&&\"href\"!==i.name&&n.setAttribute(i.name,i.value)}if(a){var l=a.nonce||a.getAttribute(\"nonce\");n.setAttribute(\"nonce\",l)}n.setAttribute(\"class\",\"handle-error-tag\"),e.$AddListener(r,\"error\",function(r){r.target&&\"AddForReload_Retry_1\"===r.target.id&&\"function\"==typeof e.CheckAndReportReactBlankPageError&&e.CheckAndReportReactBlankPageError({maxPollTimeMs:2e3,additionalErrorMessage:\"Triggered from error event\"})}),e.$AddListener(n,\"load\",function(){\"function\"==typeof e.CheckAndReportReactBlankPageError&&e.CheckAndReportReactBlankPageError({maxPollTimeMs:3e3,additionalErrorMessage:\"Triggered from load event\"})}),r.body.appendChild(n)}function n(r,a,o){if(a>=r.length)throw e.BrsData={isBrsLoaded:!1},\"function\"==typeof e.CheckAndReportReactBlankPageError&&e.CheckAndReportReactBlankPageError({maxPollTimeMs:2e3}),\"Failed to load BrsConfig file\";var i=new XMLHttpRequest;i.open(\"GET\",r[a],!0),i.onload=function(){if(i.status>=200&&i.status<300)try{e.BrsData={isBrsLoaded:!0,features:JSON.parse(i.responseText),featureFlagRing:o,service:\"MSA\"},t()}catch(e){throw\"Invalid BrsConfig format\"}else n(r,a+1,o)},i.onerror=function(){n(r,a+1,o)},i.send()}function a(e){var r=/\\/brs\\/([^/]+)/,t=e.match(r);return t?t[1]:null}function o(e,r){for(var t=0;t<r.length;t++)if(0===e.indexOf(r[t]))return e.substring(r[t].length);return null}function i(){var t=r.querySelector(\"link[rel='preload'][data-bundle='brs']\");if(!t)throw\"BrsConfig link tag not found\";var i=t.getAttribute(\"href\"),l=e.ServerData||{},d=l.loader||{},s=d.cdnRoots||[],f=o(i,s);if(null===f)throw\"Invalid BrsConfig URL\";for(var c=[i],u=0;u<s.length;u++)if(i.indexOf(s[u])===-1){var g=s[u]+f;c.push(g)}var p=0,h=a(f);if(null===h)throw\"Invalid BrsConfig path. Ring not found\";n(c,p,h)}i()}(window,document)}]));</script><script type=\"text/javascript\" src=\"https://logincdn.msauth.net/shared/5/js/fabric-chunk_vendors_Rsw4ccCQJ_jMzmQuygEDOQ2.js\" crossorigin=\"anonymous\" class=\"handle-error-tag\"/></script><script type=\"text/javascript\" nonce=\"P9R2hJo1BmhvAafAUs8rF1x5G4NsDILGXWHmqTokk68=\">!function(e,n){for(var t in n)e[t]=n[t]}(this,function(e){function n(i){if(t[i])return t[i].exports;var r=t[i]={exports:{},id:i,loaded:!1};return e[i].call(r.exports,r,r.exports,n),r.loaded=!0,r.exports}var t={};return n.m=e,n.c=t,n.p=\"\",n(0)}([function(e,n){!function(){function e(e,n,i){return{name:\"IDUX_ClientTelemetry_PageLoadErrors\",data:{service:\"MSA\",correlationId:e.sUnauthSessionID||\"\",bundleVersion:e.sAxisBundleVersion||\"\",ringId:e.sClientRingId||\"\",pageId:e.sPageId||\"\",market:e.sMkt||\"\",uiFlavor:e.iUXMode||0,scenarioId:e.iScenarioId||0,hpgid:e.hpgid||0,brsData:n.isBrsLoaded||\"\",errors:t.$Errors||[],additionalErrorMessage:i||\"\"}}}function n(e){return{instrumentationKey:e,extensions:[],extensionConfig:[],channelConfiguration:{eventsLimitInMem:50},propertyConfiguration:{hashIdentifiers:!0,gpcDataSharingOptIn:!1},cookieCfg:{ignoreCookies:[\"ANON\"]}}}var t=window;if(t.ServerData&&t.ServerData.fEnableClientBrsConfig){var i=function(i){var r=t.ServerData||{},a=\"https://js.monitor.azure.com/scripts/c/ms.analytics-4.min.js\",o=t.BrsData||{},s=\"\";if(r.clientEvents&&r.clientEvents.appInsightsConfig&&(s=r.clientEvents.appInsightsConfig.instrumentationKey||\"\"),s){var c=e(r,o,i),d=t.document.createElement(\"script\");d.src=a,d.type=\"text/javascript\",t.$AddListener&&t.$AddListener(d,\"load\",function(){if(\"undefined\"!=typeof oneDS&&oneDS.ApplicationInsights){var e=new oneDS.ApplicationInsights;e.initialize(n(s)),e.track(c)}}),t.document.body.appendChild(d)}};t.CheckAndReportReactBlankPageError=function(e){var n=e&&e.maxPollTimeMs||2e3,t=500,r=Date.now(),a=\"#outer, #inner, #pageContainer, #wizard-themed-container\",o=setInterval(function(){var t=document.querySelectorAll(a),s=t&&t.length>0,c=Date.now()-r;s?clearInterval(o):c>=n&&(i(e.additionalErrorMessage),clearInterval(o))},t)}}else t.$AddListener&&t.$AddListener(t.document,\"DOMContentLoaded\",function(){var i=t.ServerData||{},r=\"https://js.monitor.azure.com/scripts/c/ms.analytics-4.min.js\",a=\"\";i.clientEvents&&i.clientEvents.appInsightsConfig&&(a=i.clientEvents.appInsightsConfig.instrumentationKey||\"\"),setTimeout(function(){var o=t.BrsData||{},s=document.querySelectorAll(\"#outer, #inner, #pageContainer, #wizard-themed-container\");if(!(s&&s.length>0||\"\"==a)){var c=e(i,o),d=t.document.createElement(\"script\");d.src=r,d.type=\"text/javascript\",t.$AddListener&&t.$AddListener(d,\"load\",function(){if(\"undefined\"!=typeof oneDS&&oneDS.ApplicationInsights){var e=new oneDS.ApplicationInsights;e.initialize(n(a)),e.track(c)}}),t.document.body.appendChild(d)}},1e3)})}()}]));</script></body></html>"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "https://login.live.com/"
+        ],
+        "redirect_depth": 0,
+        "final_url": "https://login.live.com/",
+        "final_domain": "login.live.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "https://login.salesforce.com/",
+      "label": "BENIGN_LOGIN",
+      "pred": "MALICIOUS",
+      "score": 78.4,
+      "breakdown": {
+        "Credential Harvesting Indicators": 20,
+        "Infrastructure Reputation": 30,
+        "Content Entropy": 3.0,
+        "Credential Harvesting": 55
+      },
+      "reasons": [
+        "Phishing keywords found: login",
+        "Suspicious keyword in domain: login",
+        "Entropy 4.02 bits \u2014 moderate randomness, typical of legitimate URLs with query parameters.",
+        "Password field detected in DOM",
+        "Email and Password fields paired",
+        "Hidden inputs detected inside credential form"
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 2,
+        "password_fields": 1,
+        "email_fields": 1,
+        "hidden_fields": 32,
+        "external_actions": 0,
+        "login_keywords_found": [
+          "login"
+        ],
+        "credential_harvesting_confidence": 65,
+        "score": 55,
+        "reasons": [
+          "Password field detected in DOM",
+          "Email and Password fields paired",
+          "Hidden inputs detected inside credential form"
+        ],
+        "breakdown": {
+          "Credential Harvesting": 55
+        },
+        "html_content": "\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\" style=\"visibility: visible;\" lang=en-us xml:lang=en-us><head><meta name=\"viewport\" content=\"initial-scale=1.0\"/><meta name=\"description\" content=\"Salesforce Customer Secure Login Page. Login to your Salesforce Customer Account.\" /><title>Login | Salesforce</title><meta name=\"format-detection\" content=\"telephone=no\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sfdc_210.css?v=7\" /><style type=\"text/css\">html{visibility: hidden;}a{color:#0070d2;}body{background-color:#F4F6F9;}#content,.container{background-color:#ffffff;}#header{color:#16325c;}body{display: table; width:100%;}#content{margin-bottom:24px;}#wrap{height:100%;}</style><style type=\"text/css\"> html { visibility: hidden; } </style><script type=\"text/javascript\">if (self == top) {document.documentElement.style.visibility = 'visible';} else {document.write = ''; top.location = self.location; setTimeout(function(){document.body.innerHTML='';}, 1);window.self.onload=function(evt){document.body.innerHTML='';};}</script><script>var SFDCSessionVars={\"server\":\"https:\\/\\/login.salesforce.com\\/login\\/sessionserver212.html\",\"im\":false,\"ah\":\"active\",\"save\":\"Save\",\"saveOne\":\"Save 1 Change\",\"sum\":\"#p# Saved Usernames\",\"iaac\":false,\"hac\":\"Choose a Username\",\"suo\":\"1 Saved Username\",\"title\":\" | Salesforce\",\"pwplbl\":\"Passwordless Login via Passkeys\",\"saveMany\":\"Save #p# Changes\",\"lpt\":\"Login\",\"lllbl\":\"Lightning Login\",\"host\":\"login.salesforce.com\",\"le\":false,\"heu\":\"Edit Username List\",\"ic\":false,\"lh\":false,\"hidp\":\"Log In Using\",\"ih\":\"inactive\",\"dc\":\"Username removed. Click Save to Commit Changes.\"};</script><script src=\"/jslibrary/SfdcSessionBase208.js\"></script><script src=\"/jslibrary/LoginHint208.js\"></script><script>LoginHint.hideLoginForm();</script><link rel=\"canonical\" href=\"https://login.salesforce.com/?locale=us\"/><link rel=\"alternate\" href=\"https://login.salesforce.com\" hreflang=\"x-default\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=nb-no\" hreflang=\"nb-no\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=de\" hreflang=\"de\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=tw\" hreflang=\"zh-Hant-tw\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=ru\" hreflang=\"ru\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=fi\" hreflang=\"fi\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=jp\" hreflang=\"ja-jp\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=fr\" hreflang=\"fr\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=br\" hreflang=\"pt-br\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=se\" hreflang=\"sv\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=uk\" hreflang=\"en-gb\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=ca\" hreflang=\"en-ca\"/><link rel=\"alternate\" href=\"https://login.salesforce.com\" hreflang=\"en-us\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=in\" hreflang=\"en-in\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=en-hk\" hreflang=\"en-hk\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=kr\" hreflang=\"ko-kr\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=cn\" hreflang=\"zh-Hans-cn\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=mx\" hreflang=\"es-mx\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=it\" hreflang=\"it\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=fr-ca\" hreflang=\"fr-ca\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=es\" hreflang=\"es\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=ap\" hreflang=\"en-sg\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=eu\" hreflang=\"en\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=th\" hreflang=\"th\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=au\" hreflang=\"en-au\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=da-dk\" hreflang=\"da-dk\"/><link rel=\"alternate\" href=\"https://login.salesforce.com/?locale=nl\" hreflang=\"nl\"/></head><body onload=\"lazyload();\"><div id=\"left\" class=\"pr\"><div id=\"wrap\"><div id=\"main\"><div id=\"wrapper\"><div id=\"logo_wrapper\" class=\"standard_logo_wrapper mb24\"><div style=\"height: 100%; display: table-cell; vertical-align: bottom;\"><img aria-hidden=\"true\" id=\"logo\" class=\"standard_logo\" src=\"/img/logo214.svg\" alt=\"Salesforce login\" border=\"0\" name=\"logo\">                    <span class=\"zen-assistiveText\">Salesforce login</span></div></div><h2 id=\"header\" class=\"mb12\"></h2><div id=\"content\"><div id=\"chooser\" style=\"display: none\"><div class=\"loginError\" id=\"chooser_error\" style=\"display:none;\"></div><div><span id=\"chooser_label\" class=\"label\"></span><a href=\"javascript:void(0);\" id=\"edit\" class=\"fr small\" onclick=\"LoginHint.showEdit();\">Edit List</a></div><div class=\"scrollable mt8\"><ul id=\"idlist\"></ul></div></div><div id=\"manager\" style=\"display: none\"><div class=\"nonscrollable mt8\"><ul id=\"editlist\" class=\"mb24\" aria-live=\"polite\" aria-relevant=\"additions removals\"></ul></div><div class=\"mt16\"><button class=\"button primary fiftyfifty right\" id=\"hint_save_edit\" name=\"Save\" onclick=\"LoginHint.saveHintEdit();\">Save</button><button class=\"button secondary fiftyfifty\" id=\"hint_back_edit\" name=\"Cancel\" onclick=\"LoginHint.showChooser();\">Cancel</button></div></div><div id=\"theloginform\"><form name=\"login\" method=\"post\" id=\"login_form\" onsubmit=\"handleLogin(); return false;\" action=\"https://login.salesforce.com/\" target=\"_top\" autocomplete=\"off\" novalidate=\"novalidate\"><input type=\"hidden\" name=\"passwordShown\" value=\"true\"/><fieldset style=\"display:none\">\n\n<input type=\"hidden\" name=\"un\" id=\"un_hfid\" value=\"\" />\n\n <input type=\"hidden\" name=\"width\" value=\"\" />\n <input type=\"hidden\" name=\"height\" value=\"\" />\n <input type=\"hidden\" name=\"hasRememberUn\" value=\"true\" />\n <input type=\"hidden\" id=\"login_startUrl\" name=\"startURL\" value=\"\" />\n <input type=\"hidden\" name=\"loginURL\" value=\"\" />\n <input type=\"hidden\" name=\"loginType\" value=\"\" />\n <input type=\"hidden\" name=\"useSecure\" value=\"true\" />\n <input type=\"hidden\" name=\"local\" value=\"\" />\n <input type=\"hidden\" name=\"lt\" value=\"standard\" />\n <input type=\"hidden\" name=\"qs\" value=\"\" />\n <input type=\"hidden\" name=\"locale\" value=\"\" />\n <input type=\"hidden\" name=\"oauth_token\" value=\"\" />\n <input type=\"hidden\" name=\"oauth_callback\" value=\"\" />\n <input type=\"hidden\" name=\"login\" value=\"\" />\n <input type=\"hidden\" name=\"serverid\" value=\"\" />\n <input type=\"hidden\" name=\"display\" value=\"page\" /></fieldset>\n<h1 style=\"margin: 0 0 16px 0; padding: 0; font-size: .875rem; font-weight: bold; font-family: SFS, Arial, sans-serif; color: #03234D; text-align: center;\">Salesforce login</h1><div id=\"usernamegroup\" class=\"inputgroup\"><label for=\"username\" class=\"label usernamelabel\">Username</label><div id=\"username_container\"><div id=\"idcard-container\" class=\"mt8 mb16\" style=\"display: none\"><div id=\"idcard\"><img id=\"idcard-avatar\" class=\"avatar\" alt=\"\"><a href=\"javascript:void(0);\" id=\"clear_link\" class=\"clearlink\" onclick=\"LoginHint.clearExistingIdentity();\"><img alt=\"Log In with a Different Username\" class=\"clearicon\" src=\"/img/clear.png\"></a><span id=\"idcard-identity\"></span></div></div><input class=\"input r4 wide mb16 mt8 username\" type=\"email\" value=\"\" name=\"username\" id=\"username\" aria-describedby=\"error\"></div></div><label for=\"password\" class=\"label\">Password</label><input class=\"input r4 wide mb16 mt8 password\" type=\"password\" id=\"password\" name=\"pw\" aria-describedby=\"error\"onkeypress=\"checkCaps(event)\" autocomplete=\"off\"/><div id=\"pwcaps\" class=\"mb16\" style=\"display:none\"><img id=\"pwcapsicon\" alt=\"Caps Lock is on.\" width=\"12\"/> Caps Lock is on.</div><input class=\"button r4 wide primary\" type=\"submit\" id=\"Login\" name=\"Login\" value=\"Log In\" /><div class=\"w0 pr ln3 p16 remember\"><input type=\"checkbox\" class=\"r4 fl mr8\" style=\"\" id=\"rememberUn\" name=\"rememberUn\"><label for=\"rememberUn\" class=\"fl pr db tn3\">Remember me</label><br></div></form><div class=\"w0 links bt pt16 mb20\"><a id=\"forgot_password_link\" class=\"fl small\" href=\"/secur/forgotpassword.jsp?locale=us\">Forgot Your Password?</a><a id=\"mydomainLink\" class=\"fr small\" href=\"javascript:void(0);\" onclick=\"DomainSwitcher.enterCustomDomain('Use Custom Domain',' | Salesforce')\">Use Custom Domain</a></div><span class=\"gidr-text-break\">or</span><a id=\"gidr-email-log-in-button\" class=\"button r4 wide primary\" href=\"https://welcome.salesforce.com?ref=lsc\"><img alt=\"\" src=\"/img/gidr/email.svg\" width=\"18\" height=\"18\" /><span class=\"align-middle\">Log In with Email</span></a></div><div id=\"mydomainContainer\" style=\"display:none;\"><p class=\"mb16\">To go to your company's login page, enter the custom domain name.</p><form onsubmit=\"DomainSwitcher.handleMyDomain();return false;\"><div hidden class=\"mb16 error\" id='domain_error' role='alert' tabindex='0'>Enter a custom domain name that contains only alphanumeric characters, periods, and hyphens.</div><label for=\"mydomain\" class=\"label\">Custom Domain</label><input type=\"text\" class=\"input wide focus mt8 mb16\" name=\"mydomain\" id=\"mydomain\" onkeyup=\"DomainSwitcher.updateMyDomain(this, event);\"/><div id=\"mydomain_preview\" class=\"mb16 wordwrap\">https://<em>domain</em>.my.salesforce.com</div></form><input type=\"hidden\" id=\"mydomain_suffix\" value=\".my.salesforce.com\"/><input type=\"hidden\" id=\"community_suffix\" value=\".force.com\"/><input type=\"hidden\" id=\"suffix0\" value=\".my.salesforce.com\"/><input type=\"hidden\" id=\"suffix1\" value=\".my.salesforce.com\"/><input type=\"hidden\" id=\"suffix2\" value=\".sandbox.my.salesforce.com\"/><input type=\"hidden\" id=\"suffix3\" value=\".scratch.my.salesforce.com\"/><input type=\"hidden\" id=\"suffix4\" value=\".trailblaze.my.salesforce.com\"/><input type=\"hidden\" id=\"suffix5\" value=\".develop.my.salesforce.com\"/><input type=\"hidden\" id=\"suffix6\" value=\".sfdctest.my.salesforce.com\"/><input type=\"hidden\" id=\"suffix7\" value=\".force.com\"/><input type=\"hidden\" id=\"suffix8\" value=\".my.site.com\"/><input type=\"hidden\" id=\"suffix9\" value=\".my.salesforce-sites.com\"/><input type=\"hidden\" id=\"suffix10\" value=\".sandbox.my.site.com\"/><input type=\"hidden\" id=\"suffix11\" value=\".sandbox.my.salesforce-sites.com\"/><button class=\"button secondary fiftyfifty\" id=\"hint_back_domain\" onclick=\"DomainSwitcher.dismissCustomDomain('Login',' | Salesforce');\">Back</button><button class=\"button primary fiftyfifty right\" id=\"mydomainContinue\" name=\"Continue\" onclick=\"DomainSwitcher.handleMyDomain();\">Continue</button></div></div><div id=\"signup\" class=\"tc mt24\"><p class=\"di mr16\">Not a customer?</p><a class=\"button secondary\" id=\"signup_link\" href=\"https://www.salesforce.com/form/trial/freetrial.jsp?d=70130000000Enus\">Try for Free</a></div><div class=\"tc\" id=\"use_new_identity_div\" style=\"display:none;\"><a id=\"use_new_identity\" href=\"javascript:void(0);\" onclick=\"LoginHint.useNewIdentity();\">Log In with a Different Username</a></div></div></div></div><div id=\"footer\">&copy; 2026 Salesforce, Inc. All rights reserved. | <a id=\"privacy-link\" href=\"https://www.salesforce.com/us/company/privacy\" target=\"_blank\">Privacy</a></div></div><div id=\"right\"><iframe frameborder=\"0\" src=\"/s.gif\" id=\"marketing\" name=\"marketing\" scrolling=\"no\" title=\"Marketing\" tabindex=\"0\"sandbox=\"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts\" ></iframe></div><div aria-live=\"polite\" aria-atomic=\"true\" class=\"zen-assistiveText\" style=\"width:0px;height:0px;\" id=\"assistive-announce\">Login</div><script>LoginHint.getSavedIdentities(false);</script><script src=\"/jslibrary/baselogin4.js\"></script><script src=\"/jslibrary/LoginMarketingSurveyResponse.js\"></script><script>function handleLogin(){document.login.un.value=document.login.username.value;document.login.width.value=screen.width;document.login.height.value=screen.height;document.getElementById(\"Login\").disabled=true;document.getElementById(\"login_form\").submit();}function lazyload(){document.getElementById(\"pwcapsicon\").src=\"/img/icon/capslock_blue.png\";document.getElementById(\"marketing\").src=\"https://c.salesforce.com/login-messages/promos.html\";}loader();</script></body></html>\n\n"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "https://login.salesforce.com/"
+        ],
+        "redirect_depth": 0,
+        "final_url": "https://login.salesforce.com/",
+        "final_domain": "login.salesforce.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    }
+  ],
+  "fns": [
+    {
+      "url": "http://rnicrosoft.com",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 41.6,
+      "breakdown": {
+        "Security Protocol": 20,
+        "Typosquatting": 45
+      },
+      "reasons": [
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Domain visually similar to brand \"microsoft\""
+      ],
+      "content_intel": {
+        "content_available": false,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": ""
+      },
+      "redirect_intel": {
+        "redirect_chain": [],
+        "redirect_depth": 0,
+        "final_url": "http://rnicrosoft.com",
+        "final_domain": "rnicrosoft.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://paypaI.com",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 41.6,
+      "breakdown": {
+        "Security Protocol": 20,
+        "Typosquatting": 45
+      },
+      "reasons": [
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Domain visually similar to brand \"paypal\""
+      ],
+      "content_intel": {
+        "content_available": false,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": ""
+      },
+      "redirect_intel": {
+        "redirect_chain": [],
+        "redirect_depth": 0,
+        "final_url": "http://paypaI.com",
+        "final_domain": "paypai.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://g00gle.com",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 41.6,
+      "breakdown": {
+        "Security Protocol": 20,
+        "Typosquatting": 45
+      },
+      "reasons": [
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Domain visually similar to brand \"google\""
+      ],
+      "content_intel": {
+        "content_available": false,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": ""
+      },
+      "redirect_intel": {
+        "redirect_chain": [],
+        "redirect_depth": 0,
+        "final_url": "http://g00gle.com",
+        "final_domain": "g00gle.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://arnazon.com",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 41.6,
+      "breakdown": {
+        "Security Protocol": 20,
+        "Typosquatting": 45
+      },
+      "reasons": [
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Domain visually similar to brand \"amazon\""
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/?bm-verify=AAQAAAAN_____9IEpqcKBmpXVTsCU4T4pIxSpTUUj6wmJwm4vnt2WN8YeEYdwWWvFVG9joEKgpzYgw2_ctfJVD5W5J4Id2bkxnAl5tJlDIKh97dnJjqkhUSd2CiHDF1WAjP_Ak6GpKVMCqFBGka62_K1qFZphFb0xxIkq3slQOiISSEFBe_5SfJh_uFi9mX1OQm_qhnPgyD9h0HeYdcDWmVw4EeSUSdCIQuXk9qKbvfzSl8NgCZyJj8VqRprN1aAUw'\" /><title>&nbsp;</title><script> var i = 1781944584; var j = i + Number(\"1755\" + \"25636\"); </script> </head> <noscript> <iframe style=\"border: none; height: 100%; width: 100%;\" src=\"\"></iframe></noscript><body> <iframe style=\"border: none; width: 100vw; height: 100vh;\" src=\"https://m.media-amazon.com/images/S/sash/6Uh4bsAwUkB3vJb.gif\"> </iframe> <script> function triggerInterstitialChallenge() {var xhr = new XMLHttpRequest(); xhr.withCredentials = true; xhr.addEventListener(\"loadend\", function() { try { var data = JSON.parse(xhr.responseText); if (data.hasOwnProperty('reload')) { if (data[\"reload\"] == true) { window.location.replace(window.location.href.replace(/[&?]bm-verify=[^#]*/, \"\"));  if(window.location.hash){ window.location.reload(); } } } else if (data.hasOwnProperty('location')) { window.location.replace(data[\"location\"]); } else { window.location.reload(); } } catch (e) { window.location.reload(); }}); xhr.open(\"POST\", \"/_sec/verify?provider=interstitial\", false); xhr.setRequestHeader(\"Content-Type\", \"application/json\"); xhr.send(JSON.stringify({\"bm-verify\": \"AAQAAAAN/////2VMZCKR93bHFbd5gyRpaIMzhhBKe7ovICnNbvVTlz7K4YJuoNCvX2vtN4RKWcg6fHYiwfryEzXMzdYW+aKQI43t+C7I4XbAHjDSLNZrB6jIgLwY7yO8ztrb2PjWXpOSIcc8Gx7c4qYW4bNkLI68xfFMiluUakuXjmBIFjq63NxLNmWLvWTTASvi3y9TQS+EkJftf6d38hdTxNFiQMtytx7XVlecnUiR569lcAHB6jID6vjsQe+0iBLr8d++d6jRMLJBPFudVFY=\", \"pow\": j}));} try {if (document.getElementById(\"akam-logo\")) {document.getElementById(\"akam-logo\").onload = function () {requestAnimationFrame(triggerInterstitialChallenge);}; document.getElementById(\"akam-logo\").onerror = triggerInterstitialChallenge;} else {triggerInterstitialChallenge()}} catch(e) {triggerInterstitialChallenge();}</script>  </body> </html>"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "http://arnazon.com",
+          "http://arnazon.com/",
+          "https://arnazon.com:443/",
+          "https://www.amazon.com:443/"
+        ],
+        "redirect_depth": 3,
+        "final_url": "https://www.amazon.com:443/",
+        "final_domain": "www.amazon.com:443",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "https://tinyurl.com/ms-verify",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 31.2,
+      "breakdown": {
+        "Obfuscation": 25,
+        "Credential Harvesting Indicators": 20,
+        "Content Entropy": 3.0
+      },
+      "reasons": [
+        "URL shortener detected (tinyurl.com)",
+        "Phishing keywords found: verify",
+        "Entropy 4.19 bits \u2014 moderate randomness, typical of legitimate URLs with query parameters."
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [
+          "verify"
+        ],
+        "credential_harvesting_confidence": 10,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n            <meta property=\"og:type\" content=\"website\"/>\n    <meta itemscope itemtype=\"http://schema.org/WebSite\"/>\n\n<meta property=\"og:url\" content=\"https://tinyurl.com/preview/ms-verify\"/>\n<meta property=\"og:title\" content=\"TinyURL.com: ms-verify\"/>\n<meta property=\"og:description\" content=\"TinyURL.com: https://tinyurl.com/ms-verify is a short link for several URLs\"/>\n<meta property=\"fb:app_id\" content=\"223505336087945\">\n\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@\">\n<meta name=\"twitter:title\" content=\"TinyURL.com: ms-verify\">\n<meta name=\"twitter:description\" content=\"TinyURL.com: https://tinyurl.com/ms-verify is a short link for several URLs\">\n\n<meta itemprop=\"headline\" content=\"TinyURL.com: ms-verify\"/>\n<meta itemprop=\"description\" content=\"TinyURL.com: https://tinyurl.com/ms-verify is a short link for several URLs\"/>\n        \n    \n        <meta charset=\"UTF-8\">\n        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n        <title>URL Shortener, Branded Short Links & Analytics | TinyURL</title>\n        <base href=\"https://tinyurl.com/\">\n        <meta name=\"description\" content=\"TinyURL is the original URL shortener that shortens your unwieldly links into more manageable and useable URLs.\">\n        <meta name=\"keywords\" content=\"tinyurl url save share shorten analyze\">\n        <link rel=\"shortcut icon\" href=\"https://tinyurl.com/favicon.ico\" type=\"image/gif\">\n        \n        <link href=\"https://tinyurl.com/css/legacy.css\" rel=\"stylesheet\" type=\"text/css\" />\n    <script nonce=\"CpEU+j43trqypocFQVNeoA==\" src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"></script>\n    <script nonce=\"CpEU+j43trqypocFQVNeoA==\" type=\"text/javascript\">\n        document.write('<script nonce=\"CpEU+j43trqypocFQVNeoA==\" async type=\"text/javascript\" src=\"https://tinyurl.com/siteresources/js/common.js\"></sc'+'ript>');\n    </script>\n    \n    \n            <!-- Freestar -->\n        <link rel=\"stylesheet\" href=\"https://a.pub.network/core/pubfig/cls.css\" />\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" data-cfasync=\"false\" type=\"text/javascript\">\n            var freestar = freestar || {};\n            freestar.queue = freestar.queue || [];\n            freestar.config = freestar.config || {};\n            freestar.config.enabled_slots = [];\n            freestar.initCallback = function () {\n                freestar.config.enabled_slots.length === 0 ? (freestar.initCallbackCalled = false) : freestar.newAdSlots(freestar.config.enabled_slots);\n            };\n            freestar.queue.push(function () {\n                googletag.pubads().set('page_url', 'https://tinyurl.com/');\n            });\n        </script>\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" src=\"https://a.pub.network/tinyurl-com/pubfig.min.js\" type=\"text/javascript\" async></script>\n    \n</head>\n\n<body>\n\n    \n    <div class=\"wrapper\">\n        <div class=\"header\">\n            <h1>\n                <a class=\"baselink\" href=\"https://tinyurl.com\">\n                    <img src=\"https://tinyurl.com/siteresources/images/tinyurl_logo.png\" alt=\"TinyURL.com\"/>\n                </a>\n            </h1>\n            Making over a billion long URLs usable! Serving billions of redirects per month.        </div>\n\n        <div class=\"body\">\n            <div class=\"leftpane\">\n    <div class=\"sidebar\">\n        <div><a class=\"baselink\" href=\"https://tinyurl.com\">Home</a></div>\n        <div><a href=\"/#example\">Example</a></div>\n        <div><a href=\"/#toolbar\">Make Toolbar Button</a></div>\n        <div><a href=\"/#redirect\">Redirection</a></div>\n        <div><a href=\"https://tinyurl.com/preview.php\">Preview Feature</a><sup><small style=\"font-weight: bold\">cool!</small></sup></div>\n        <div><a href=\"/#link\">Link to Us!</a></div>\n        <div><a href=\"/#terms\">Terms of use</a></div>\n    </div>\n    <div align=\"center\" data-freestar-ad=\"__300x600\" id=\"tinyurl_right_sidebar_2\">\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" data-cfasync=\"false\" type=\"application/javascript\">\n            freestar.config.enabled_slots.push({\n                placementName: \"tinyurl_right_sidebar_2\",\n                slotId: \"tinyurl_right_sidebar_2\",\n            });\n        </script>\n    </div>\n</div>\n\n            <div class=\"mainpane\">\n                <div class=\"topbanner\">\n                    <div align=\"center\" data-freestar-ad=\"__300x600\" id=\"tinyurl_right_sidebar_2\">\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" data-cfasync=\"false\" type=\"application/javascript\">\n            freestar.config.enabled_slots.push({\n                placementName: \"tinyurl_right_sidebar_2\",\n                slotId: \"tinyurl_right_sidebar_2\",\n            });\n        </script>\n    </div>\n                </div>\n                <div class=\"maincontent\">\n                    <div class=\"rightad\">\n                        <div align=\"center\" data-freestar-ad=\"__300x600\" id=\"tinyurl_right-multisize-2.0\">\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" data-cfasync=\"false\" type=\"application/javascript\">\n            freestar.config.enabled_slots.push({\n                placementName: \"tinyurl_right-multisize-2.0\",\n                slotId: \"tinyurl_right-multisize-2.0\",\n            });\n        </script>\n    </div>\n                    </div>\n                    <div id=\"contentcontainer\">\n                                        <h2>Preview of https://tinyurl.com/ms-verify</h2>\n                                                                    <br>\n            <hr>\n            <p id=\"previewText\">\n                <noscript>\n                    <b>You currently have the preview feature disabled.</b>\n                </noscript>\n            </p>\n            <p id=\"previewLink\" class=\"set-preview\"></p>\n            <p>\n                The preview feature requires cookies\n                <noscript>\n                    and javascript\n                </noscript>\n                to be enabled in your web browser.\n            </p>\n                    </div>\n                    <div style=\"clear:both\"></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"push\"></div>\n    </div>\n\n    <div class=\"footer\">\n        <div class=\"privacy\">\n            <a id=\"privacy\" href=\"https://tinyurl.com/privacy.php\">\n                Privacy policy            </a>\n        </div>\n        <div id=\"copyright\">\n            Copyright \u00a9 2002-2026 TinyURL, LLC. All rights reserved. <br />\n            TinyURL is a trademark of TinyURL, LLC.        </div>\n    </div>\n\n        <script nonce=\"CpEU+j43trqypocFQVNeoA==\" type=\"text/javascript\">\n        $(function() {\n            var previewEnabled = false;\n            var cookies = document.cookie ? document.cookie.split('; ') : [];\n            for (var i = 0; i < cookies.length; i++) {\n                var parts = cookies[i].split('=');\n                if(parts[0] === 'preview') {\n                    previewEnabled = (parseInt(parts[1]) === 1);\n                }\n            }\n            $('#previewText').append('<b>You currently have the preview feature '+(previewEnabled ? 'enabled' : 'disabled')+'.</b>');\n\n            var enablePreviewLink = \"https:\\/\\/tinyurl.com\\/preview\\/enable\\/ms-verify\";\n            var disablePreviewLink = \"https:\\/\\/tinyurl.com\\/preview\\/disable\\/ms-verify\";\n\n            var text = (previewEnabled ? 'disable' : 'enable');\n            var a = $('<a>')\n                .attr('href', previewEnabled ? disablePreviewLink : enablePreviewLink)\n                .html('Click here to <b>'+text+'</b> previews');\n            $('#previewLink').append(a);\n        });\n    </script>\n\n\n            <script nonce=\"CpEU+j43trqypocFQVNeoA==\">\n            window.freestar.queue.push(function() {\n                window.freestar.newStickyFooter(\"tinyurl_homepage\");\n            });\n        </script>\n    \n</body>\n\n</html>\n"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "https://tinyurl.com/ms-verify",
+          "https://tinyurl.com/preview/ms-verify"
+        ],
+        "redirect_depth": 1,
+        "final_url": "https://tinyurl.com/preview/ms-verify",
+        "final_domain": "tinyurl.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://365verificafacial.fwh.is/",
+      "label": "PHISHING",
+      "pred": "SAFE",
+      "score": 28.0,
+      "breakdown": {
+        "Credential Harvesting Indicators": 20,
+        "Security Protocol": 20,
+        "Content Entropy": 3.0
+      },
+      "reasons": [
+        "Phishing keywords found: verifica",
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Entropy 4.05 bits \u2014 moderate randomness, typical of legitimate URLs with query parameters."
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": "<html><body><script type=\"text/javascript\" src=\"/aes.js\" ></script><script>function toNumbers(d){var e=[];d.replace(/(..)/g,function(d){e.push(parseInt(d,16))});return e}function toHex(){for(var d=[],d=1==arguments.length&&arguments[0].constructor==Array?arguments[0]:arguments,e=\"\",f=0;f<d.length;f++)e+=(16>d[f]?\"0\":\"\")+d[f].toString(16);return e.toLowerCase()}var a=toNumbers(\"f655ba9d09a112d4968c63579db590b4\"),b=toNumbers(\"98344c2eee86c3994890592585b49f80\"),c=toNumbers(\"ccf354987ba9523f66b310a678cd5496\");document.cookie=\"__test=\"+toHex(slowAES.decrypt(c,2,a,b))+\"; max-age=21600; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/\"; location.href=\"http://365verificafacial.fwh.is/?i=1\";</script><noscript>This site requires Javascript to work, please enable Javascript in your browser or use a browser with Javascript support</noscript></body></html>"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "http://365verificafacial.fwh.is/"
+        ],
+        "redirect_depth": 0,
+        "final_url": "http://365verificafacial.fwh.is/",
+        "final_domain": "365verificafacial.fwh.is",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://94709.my/",
+      "label": "PHISHING",
+      "pred": "SAFE",
+      "score": 25.6,
+      "breakdown": {
+        "Infrastructure Structure": 20,
+        "Security Protocol": 20
+      },
+      "reasons": [
+        "Numeric subdomain detected",
+        "Unencrypted HTTP connection (no HTTPS)"
+      ],
+      "content_intel": {
+        "content_available": false,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": ""
+      },
+      "redirect_intel": {
+        "redirect_chain": [],
+        "redirect_depth": 0,
+        "final_url": "http://94709.my/",
+        "final_domain": "94709.my",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://1xplayers.com/GtNNJWZc",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 31.2,
+      "breakdown": {
+        "Obfuscation": 25,
+        "Security Protocol": 20,
+        "Content Entropy": 3.0
+      },
+      "reasons": [
+        "URL shortener detected (1xplayers.com)",
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Entropy 4.32 bits \u2014 moderate randomness, typical of legitimate URLs with query parameters."
+      ],
+      "content_intel": {
+        "content_available": true,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": "<html>\n        <head>\n            <script type=\"application/javascript\">\n                function process() {\n                   if (window.location !== window.parent.location ) {\n                      top.location = \"https://kaminari.systems/v1/click?kmnrKey=938718800&sub2=&u=http://refpa04274.com/L?tag=d_3637940m_97c_&site=3637940&ad=97\";\n                   } else {\n                      window.location = \"https://kaminari.systems/v1/click?kmnrKey=938718800&sub2=&u=http://refpa04274.com/L?tag=d_3637940m_97c_&site=3637940&ad=97\";\n                   }\n                }\n                window.onerror = process;\n                process();</script>\n        </head>\n        <body>\n            The Document has moved <a href=\"https://kaminari.systems/v1/click?kmnrKey=938718800&sub2=&u=http://refpa04274.com/L?tag=d_3637940m_97c_&site=3637940&ad=97\">here</a>\n        </body>\n        </html>"
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "http://1xplayers.com/GtNNJWZc"
+        ],
+        "redirect_depth": 0,
+        "final_url": "http://1xplayers.com/GtNNJWZc",
+        "final_domain": "1xplayers.com",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    },
+    {
+      "url": "http://876678987.framer.website/",
+      "label": "PHISHING",
+      "pred": "SUSPICIOUS",
+      "score": 44.0,
+      "breakdown": {
+        "Infrastructure Structure": 20,
+        "Hosting Reputation": 25,
+        "Security Protocol": 20,
+        "Content Entropy": 3.0
+      },
+      "reasons": [
+        "Numeric subdomain detected",
+        "PaaS / Free hosting service detected (framer.website)",
+        "Unencrypted HTTP connection (no HTTPS)",
+        "Entropy 4.07 bits \u2014 moderate randomness, typical of legitimate URLs with query parameters."
+      ],
+      "content_intel": {
+        "content_available": false,
+        "form_count": 0,
+        "password_fields": 0,
+        "email_fields": 0,
+        "hidden_fields": 0,
+        "external_actions": 0,
+        "login_keywords_found": [],
+        "credential_harvesting_confidence": 0,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {},
+        "html_content": ""
+      },
+      "redirect_intel": {
+        "redirect_chain": [
+          "http://876678987.framer.website/",
+          "https://876678987.framer.website/"
+        ],
+        "redirect_depth": 1,
+        "final_url": "https://876678987.framer.website/",
+        "final_domain": "876678987.framer.website",
+        "brand_in_redirect": null,
+        "brand_domain_mismatch": false,
+        "score": 0,
+        "reasons": [],
+        "breakdown": {}
+      }
+    }
+  ]
+}

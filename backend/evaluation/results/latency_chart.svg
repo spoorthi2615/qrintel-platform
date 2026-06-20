@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 300" width="500" height="300" xmlns="http://www.w3.org/2000/svg" style="background:#0b1329; font-family:sans-serif;">
+      <text x="250" y="30" fill="#f8fafc" text-anchor="middle" font-weight="bold" font-size="14">Detection &amp; Forecast Latencies (ms)</text>
+      <rect x="50" y="70" width="35" height="150" fill="#3b82f6" rx="4"/>
+      <text x="67" y="240" fill="#94a3b8" text-anchor="middle" font-size="9">Scan Time</text>
+      <rect x="150" y="150" width="35" height="70" fill="#8b5cf6" rx="4"/>
+      <text x="167" y="240" fill="#94a3b8" text-anchor="middle" font-size="9">Forecast</text>
+      <line x1="30" y1="220" x2="470" y2="220" stroke="#1e293b" stroke-width="2"/>
+    </svg>

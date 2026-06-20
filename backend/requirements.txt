@@ -1,0 +1,10 @@
+Flask
+Flask-CORS
+opencv-python
+numpy
+cryptography
+pycryptodome
+selenium
+webdriver-manager
+requests
+Pillow

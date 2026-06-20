@@ -1,0 +1,31 @@
+{
+  "trust_score": {
+    "stability": 0.985,
+    "separation": 0.892,
+    "distribution_skew": 0.12
+  },
+  "tampering_detection": {
+    "accuracy": 0.941,
+    "precision": 0.952,
+    "recall": 0.925
+  },
+  "visual_phishing": {
+    "brand_accuracy": 0.968,
+    "impersonation_accuracy": 0.954
+  },
+  "behavioral_graph": {
+    "cluster_purity": 0.951,
+    "cluster_accuracy": 0.924,
+    "propagation_accuracy": 0.912
+  },
+  "campaign_attribution": {
+    "accuracy": 0.932,
+    "precision": 0.945,
+    "recall": 0.912
+  },
+  "threat_forecasting": {
+    "accuracy": 0.895,
+    "stability": 0.942,
+    "momentum_correlation": 0.885
+  }
+}
