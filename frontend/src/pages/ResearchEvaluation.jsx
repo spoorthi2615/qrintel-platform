@@ -8,18 +8,18 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Legend, BarChart, Bar
 } from 'recharts';
-import { getEvaluationResults, runEvaluationBenchmark } from '../services/api';
+import { getEvaluationResults, runEvaluationBenchmark, exportEvaluationCsv } from '../services/api';
 
 // Data is fetched dynamically from the backend
 
 function KpiCard({ title, value, sub }) {
   return (
     <div className="glass p-4 border border-slate-800 bg-[#070b1a]/20 flex flex-col justify-between">
-      <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block">{title}</span>
+      <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block">{title}</span>
       <span className="text-2xl font-black text-slate-100 block my-2 font-mono">
         {typeof value === 'number' ? `${(value * 100).toFixed(1)}%` : value}
       </span>
-      <span className="text-[9px] text-slate-500">{sub}</span>
+      <span className="text-xs text-slate-500">{sub}</span>
     </div>
   );
 }
@@ -61,6 +61,21 @@ export default function ResearchEvaluation() {
       console.error("Benchmark execution failed:", e);
     } finally {
       setIsRunning(false);
+    }
+  };
+
+  const handleCsvDownload = async () => {
+    try {
+      const blob = await exportEvaluationCsv();
+      const url = window.URL.createObjectURL(new Blob([blob]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'benchmark_results.csv');
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode.removeChild(link);
+    } catch (e) {
+      console.error("Failed to download CSV", e);
     }
   };
 
@@ -106,12 +121,12 @@ export default function ResearchEvaluation() {
             <Award className="text-blue-500" />
             <span>Research &amp; Benchmark Evaluation Dashboard</span>
           </h2>
-          <p className="text-[10px] text-slate-500 mt-1">Scientific indices generated across high-fidelity threat vector feeds.</p>
+          <p className="text-sm text-slate-500 mt-1">Scientific indices generated across high-fidelity threat vector feeds.</p>
         </div>
         <button
           onClick={triggerBenchmark}
           disabled={isRunning}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[10px] font-bold bg-blue-600 hover:bg-blue-700 text-white transition-all"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-bold bg-blue-600 hover:bg-blue-700 text-white transition-all"
         >
           <RefreshCw size={11} className={isRunning ? "animate-spin" : ""} />
           <span>{isRunning ? "Running Benchmark..." : "Run Evaluation Suite"}</span>
@@ -134,23 +149,23 @@ export default function ResearchEvaluation() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-xs">
           <div>
-            <span className="text-slate-500 block text-[9px] uppercase font-bold mb-1">Dataset Source</span>
+            <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Dataset Source</span>
             <span className="text-slate-300 font-mono">OpenPhish</span>
           </div>
           <div>
-            <span className="text-slate-500 block text-[9px] uppercase font-bold mb-1">Dataset Size</span>
+            <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Dataset Size</span>
             <span className="text-slate-300 font-mono">{meta.dataset_size} ({meta.phishing_samples} Phish / {meta.benign_samples} Benign)</span>
           </div>
           <div>
-            <span className="text-slate-500 block text-[9px] uppercase font-bold mb-1">Execution Mode</span>
+            <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Execution Mode</span>
             <span className="text-slate-300 font-mono text-emerald-400 font-bold">Live Evaluation</span>
           </div>
           <div>
-            <span className="text-slate-500 block text-[9px] uppercase font-bold mb-1">Engine Version</span>
+            <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Engine Version</span>
             <span className="text-slate-300 font-mono">{meta.engine_version}</span>
           </div>
           <div>
-            <span className="text-slate-500 block text-[9px] uppercase font-bold mb-1">Timestamp</span>
+            <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Timestamp</span>
             <span className="text-slate-300 font-mono">{meta.timestamp ? new Date(meta.timestamp).toLocaleString() : 'N/A'}</span>
           </div>
         </div>
@@ -161,11 +176,11 @@ export default function ResearchEvaluation() {
         {/* Confusion Matrix Heatmap */}
         <div className="glass p-5 border border-slate-800 flex flex-col justify-between">
           <div>
-            <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block">Confusion Matrix Heatmap</span>
-            <span className="text-[10px] text-slate-500 block mt-0.5">True vs. predicted classification boundaries</span>
+            <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block">Confusion Matrix Heatmap</span>
+            <span className="text-sm text-slate-500 block mt-0.5">True vs. predicted classification boundaries</span>
           </div>
 
-          <div className="grid grid-cols-3 gap-2 text-center text-[10px] font-bold uppercase tracking-wider mt-4">
+          <div className="grid grid-cols-3 gap-2 text-center text-sm font-bold uppercase tracking-wider mt-4">
             <div />
             <div className="bg-slate-900/60 p-2 rounded text-slate-400">Pred Safe</div>
             <div className="bg-slate-900/60 p-2 rounded text-slate-400">Pred Threat</div>
@@ -173,34 +188,51 @@ export default function ResearchEvaluation() {
             <div className="bg-slate-900/60 p-2 rounded flex items-center justify-center text-slate-400">Act Safe</div>
             <div className="bg-emerald-500/20 text-emerald-400 p-4 rounded border border-emerald-500/30">
               <span className="text-sm font-black font-mono">{cm.tn}</span>
-              <span className="text-[8px] block text-emerald-600 mt-1">True Negative</span>
+              <span className="text-xs block text-emerald-600 mt-1">True Negative</span>
             </div>
             <div className="bg-red-500/10 text-red-400 p-4 rounded border border-red-500/20">
               <span className="text-sm font-black font-mono">{cm.fp}</span>
-              <span className="text-[8px] block text-red-600 mt-1">False Positive</span>
+              <span className="text-xs block text-red-600 mt-1">False Positive</span>
             </div>
 
             <div className="bg-slate-900/60 p-2 rounded flex items-center justify-center text-slate-400">Act Threat</div>
             <div className="bg-red-500/10 text-red-400 p-4 rounded border border-red-500/20">
               <span className="text-sm font-black font-mono">{cm.fn}</span>
-              <span className="text-[8px] block text-red-600 mt-1">False Negative</span>
+              <span className="text-xs block text-red-600 mt-1">False Negative</span>
             </div>
             <div className="bg-emerald-500/20 text-emerald-400 p-4 rounded border border-emerald-500/30">
               <span className="text-sm font-black font-mono">{cm.tp}</span>
-              <span className="text-[8px] block text-emerald-600 mt-1">True Positive</span>
+              <span className="text-xs block text-emerald-600 mt-1">True Positive</span>
             </div>
           </div>
 
-          <div className="text-[9px] text-slate-500 border-t border-slate-900 pt-3 mt-4 flex items-center gap-1.5">
+          <div className="text-xs text-slate-500 border-t border-slate-900 pt-3 mt-4 flex items-center gap-1.5">
             <Database size={11} />
             <span>Based on {meta.dataset_size} total queries</span>
           </div>
         </div>
 
         {/* Performance Latency Profile */}
-        <div className="glass p-5 border border-slate-800 lg:col-span-2 flex flex-col justify-center items-center text-slate-500">
-          <div className="text-xs mb-2">Live Profiling Required</div>
-          <div className="text-[10px]">Latency charts will populate after deep module tracing is enabled.</div>
+        <div className="glass p-5 border border-slate-800 lg:col-span-2 flex flex-col justify-between">
+          <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block mb-4">Pipeline Latency Profiling (ms)</span>
+          {metrics.latency && metrics.latency.length > 0 ? (
+            <ResponsiveContainer width="100%" height={180}>
+              <BarChart data={metrics.latency} margin={{ top: 10, right: 10, bottom: 0, left: -20 }}>
+                <CartesianGrid stroke="rgba(255,255,255,0.03)" strokeDasharray="3 3" vertical={false} />
+                <XAxis dataKey="module" type="category" tick={{ fill: '#475569', fontSize: 10 }} axisLine={false} tickLine={false} />
+                <YAxis type="number" tick={{ fill: '#475569', fontSize: 10 }} axisLine={false} tickLine={false} />
+                <Tooltip content={<CyberTooltip />} cursor={{ fill: 'rgba(37,99,235,0.1)' }} />
+                <Legend iconType="circle" wrapperStyle={{ fontSize: '10px', color: '#475569' }} />
+                <Bar dataKey="p50" name="Median (p50)" fill="#3b82f6" radius={[4, 4, 0, 0]} maxBarSize={40} />
+                <Bar dataKey="p99" name="Tail (p99)" fill="#ef4444" radius={[4, 4, 0, 0]} maxBarSize={40} />
+              </BarChart>
+            </ResponsiveContainer>
+          ) : (
+            <div className="flex-1 flex flex-col justify-center items-center text-slate-500">
+              <div className="text-xs mb-2">Live Profiling Required</div>
+              <div className="text-sm">Latency charts will populate after deep module tracing is enabled.</div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -208,7 +240,7 @@ export default function ResearchEvaluation() {
       <div className="grid md:grid-cols-2 gap-6">
         {/* ROC Curve */}
         <div className="glass p-5 border border-slate-800">
-          <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block mb-4">Receiver Operating Characteristic (ROC)</span>
+          <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block mb-4">Receiver Operating Characteristic (ROC)</span>
           <ResponsiveContainer width="100%" height={180}>
             <LineChart data={metrics.roc} margin={{ top: 5, right: 10, bottom: 0, left: -20 }}>
               <CartesianGrid stroke="rgba(255,255,255,0.03)" strokeDasharray="3 3" />
@@ -223,7 +255,7 @@ export default function ResearchEvaluation() {
 
         {/* PR Curve */}
         <div className="glass p-5 border border-slate-800">
-          <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block mb-4">Precision-Recall Curve</span>
+          <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block mb-4">Precision-Recall Curve</span>
           <ResponsiveContainer width="100%" height={180}>
             <LineChart data={metrics.pr} margin={{ top: 5, right: 10, bottom: 0, left: -20 }}>
               <CartesianGrid stroke="rgba(255,255,255,0.03)" strokeDasharray="3 3" />
@@ -242,14 +274,12 @@ export default function ResearchEvaluation() {
           <FileSpreadsheet size={15} className="text-blue-500" />
           <span>Evaluation framework produces publication-ready benchmark arrays.</span>
         </div>
-        <a
-          href="/api/intelligence/evaluation/results"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3 py-1.5 rounded bg-slate-900 hover:bg-slate-950 border border-slate-800 text-blue-400 font-bold transition-all"
+        <button
+          onClick={handleCsvDownload}
+          className="px-3 py-1.5 rounded bg-slate-900 hover:bg-slate-950 border border-slate-800 text-blue-400 font-bold transition-all cursor-pointer"
         >
           Export Raw CSV Array
-        </a>
+        </button>
       </div>
 
     </div>
@@ -259,7 +289,7 @@ export default function ResearchEvaluation() {
 function CyberTooltip({ active, payload }) {
   if (!active || !payload?.length) return null;
   return (
-    <div className="glass px-2.5 py-1.5 text-[10px] border border-slate-800 bg-slate-950/90 text-slate-300 font-semibold">
+    <div className="glass px-2.5 py-1.5 text-sm border border-slate-800 bg-slate-950/90 text-slate-300 font-semibold">
       <span>{payload[0].name}: </span>
       <span className="font-mono text-slate-100">{payload[0].value} ms</span>
     </div>

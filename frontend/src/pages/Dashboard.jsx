@@ -67,7 +67,7 @@ function StatCard({ icon: Icon, label, value, color, bg, trend }) {
           <Icon size={18} style={{ color }} />
         </div>
         <div>
-          <p className="text-slate-500 text-[10px] font-bold uppercase tracking-wider">{label}</p>
+          <p className="text-slate-500 text-sm font-bold uppercase tracking-wider">{label}</p>
           <motion.p
             key={value}
             initial={{ opacity: 0, y: -4 }}
@@ -79,7 +79,7 @@ function StatCard({ icon: Icon, label, value, color, bg, trend }) {
         </div>
       </div>
       {trend && (
-        <div className="flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+        <div className="flex items-center gap-1 text-sm font-bold px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
           <ArrowUpRight size={10} />
           <span>{trend}</span>
         </div>
@@ -201,7 +201,7 @@ export default function Dashboard() {
             </div>
             <div>
               <span className="font-extrabold text-sm tracking-wider text-slate-100">QRIntel</span>
-              <span className="text-blue-500 text-[10px] font-black ml-1.5 px-1 py-0.5 rounded bg-blue-500/10">3.0</span>
+              <span className="text-blue-500 text-sm font-black ml-1.5 px-1 py-0.5 rounded bg-blue-500/10">3.0</span>
             </div>
           </div>
 
@@ -230,14 +230,14 @@ export default function Dashboard() {
 
         {/* System & DB Status Indicator */}
         <div className="p-4 border-t border-slate-900/65 bg-[#060a15]/50 space-y-2">
-          <div className="flex items-center justify-between text-[10px] text-slate-500 font-semibold uppercase">
+          <div className="flex items-center justify-between text-sm text-slate-500 font-semibold uppercase">
             <span>Server Status</span>
             <div className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping inline-block" />
               <span className="text-emerald-400">ONLINE</span>
             </div>
           </div>
-          <div className="text-[10px] text-slate-600 flex items-center justify-between">
+          <div className="text-sm text-slate-600 flex items-center justify-between">
             <span>Database Status</span>
             <span className="font-mono text-slate-400">SQLite Connected</span>
           </div>
@@ -294,7 +294,7 @@ export default function Dashboard() {
                     {/* Threat Level */}
                     <div className="glass p-5 border border-slate-800 bg-[#070b1a]/40 flex flex-col justify-between">
                       <div>
-                        <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block">Global Threat Status</span>
+                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block">Global Threat Status</span>
                         <h2 className="text-xs text-slate-400 font-semibold mt-1">Platform-wide alert evaluation</h2>
                       </div>
                       <div className="my-6">
@@ -309,7 +309,7 @@ export default function Dashboard() {
                           SYSTEM THREAT LEVEL: {threatCfg.label}
                         </div>
                       </div>
-                      <div className="text-[9px] text-slate-500 flex items-center gap-2">
+                      <div className="text-xs text-slate-500 flex items-center gap-2">
                         <Info size={11} />
                         <span>Calculated dynamically based on attribution & clusters</span>
                       </div>
@@ -318,13 +318,13 @@ export default function Dashboard() {
                     {/* Executive Summary Narrative */}
                     <div className="lg:col-span-2 glass p-5 border border-slate-800 bg-[#070b1a]/40 flex flex-col justify-between">
                       <div>
-                        <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider block">Platform Executive Summary</span>
+                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider block">Platform Executive Summary</span>
                         <h3 className="text-slate-200 text-sm font-semibold mt-2">Active Intelligence Findings</h3>
                       </div>
                       <div className="my-4 text-xs text-slate-400 leading-relaxed max-w-xl">
                         Currently, QRIntel has analyzed <strong className="text-slate-200">{total} QR scan payloads</strong>. From our structural and behavior checks, <strong className="text-red-400">{malicious} malicious endpoints</strong> and <strong className="text-amber-400">{suspicious} suspicious vectors</strong> have been quarantined. The threat graph tracks <strong className="text-slate-200">coordinated campaigns</strong> with a threat momentum categorized as <strong className="text-slate-200">MODERATE</strong>. The highest-risk category observed is <strong className="text-blue-400">Brand Impersonation</strong>.
                       </div>
-                      <div className="text-[10px] text-slate-500">
+                      <div className="text-sm text-slate-500">
                         Operational Status: <span className="text-emerald-400 font-bold">ALL MODULES ACTIVE</span>
                       </div>
                     </div>
@@ -439,7 +439,7 @@ export default function Dashboard() {
                               <Type size={14} />
                               <span>Manual Entry</span>
                             </div>
-                            <p className="text-[10px] text-slate-500 mt-1.5 leading-relaxed">Directly inspect suspicious URLs, email addresses, or raw data string attributes.</p>
+                            <p className="text-sm text-slate-500 mt-1.5 leading-relaxed">Directly inspect suspicious URLs, email addresses, or raw data string attributes.</p>
                           </div>
                           <ManualEntry onScan={onManualScan} isLoading={isLoading && activeTab === 'manual'} />
                         </div>
@@ -451,7 +451,7 @@ export default function Dashboard() {
                               <ImagePlus size={14} />
                               <span>Image Upload</span>
                             </div>
-                            <p className="text-[10px] text-slate-500 mt-1.5 leading-relaxed">Process image files containing QR codes using our enhanced multi-stage CV engine.</p>
+                            <p className="text-sm text-slate-500 mt-1.5 leading-relaxed">Process image files containing QR codes using our enhanced multi-stage CV engine.</p>
                           </div>
                           <ImageUpload onUpload={onUpload} isLoading={isLoading && activeTab === 'upload'} />
                         </div>
@@ -463,7 +463,7 @@ export default function Dashboard() {
                               <Camera size={14} />
                               <span>Live Scanner</span>
                             </div>
-                            <p className="text-[10px] text-slate-500 mt-1.5 leading-relaxed">Mount dynamic feed streams to run real-time camera captures directly.</p>
+                            <p className="text-sm text-slate-500 mt-1.5 leading-relaxed">Mount dynamic feed streams to run real-time camera captures directly.</p>
                           </div>
                           <LiveScanner onScan={onLiveScan} isLoading={isLoading && activeTab === 'live'} />
                         </div>
@@ -560,25 +560,25 @@ export default function Dashboard() {
                     <div className="space-y-4">
                       {/* Section 1 */}
                       <div className="p-4 rounded-xl border border-slate-900 bg-slate-900/10 space-y-3">
-                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Security Engine Configuration</span>
+                        <span className="text-sm font-bold text-slate-400 uppercase tracking-wider block">Security Engine Configuration</span>
                         <div className="flex items-center justify-between text-xs">
                           <div>
                             <p className="text-slate-300 font-semibold">Headless Browser Screenshotting</p>
-                            <p className="text-slate-500 text-[10px] mt-0.5">Captures sandbox renderings of destination URLs.</p>
+                            <p className="text-slate-500 text-sm mt-0.5">Captures sandbox renderings of destination URLs.</p>
                           </div>
-                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">ENABLED</span>
+                          <span className="px-2 py-0.5 rounded text-sm font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">ENABLED</span>
                         </div>
                       </div>
 
                       {/* Section 2 */}
                       <div className="p-4 rounded-xl border border-slate-900 bg-slate-900/10 space-y-3">
-                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Cryptographic verification keys</span>
+                        <span className="text-sm font-bold text-slate-400 uppercase tracking-wider block">Cryptographic verification keys</span>
                         <div className="flex items-center justify-between text-xs">
                           <div>
                             <p className="text-slate-300 font-semibold">RSA-PSS & Ed25519 Audits</p>
-                            <p className="text-slate-500 text-[10px] mt-0.5">Verify signature provenance logs.</p>
+                            <p className="text-slate-500 text-sm mt-0.5">Verify signature provenance logs.</p>
                           </div>
-                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">ACTIVE</span>
+                          <span className="px-2 py-0.5 rounded text-sm font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">ACTIVE</span>
                         </div>
                       </div>
                     </div>

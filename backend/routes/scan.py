@@ -18,7 +18,6 @@ from core.intelligence_pipeline import enrich_scan
 from core.threat_lookup import lookup_threat
 from core.content_intelligence import analyze_content as new_analyze_content
 from core.redirect_intelligence import analyze_redirects
-from core.threat_feed_manager import lookup_threat
 from core.feed_sync_scheduler import check_cache
 from core.brand_intelligence import analyze_brand_intelligence
 from core.dns_intelligence import analyze_dns
@@ -181,7 +180,7 @@ def _analyze_payload(payload: str, scan_method: str = 'manual', image_bytes: byt
     screenshot_b64 = None
     screenshot_path = None
     visual_result = {}
-    
+    visual_brand_intel = {}
     if payload_type == 'URL' and os.environ.get('QRIntel_SCREENSHOT') != '0':
         try:
             shot_res = capture_screenshot(payload)
@@ -319,6 +318,8 @@ def scan_manual():
         result = _analyze_payload(payload, scan_method='manual')
         return jsonify(result)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return jsonify({'error': f'Analysis failed: {str(e)}'}), 500
 
 

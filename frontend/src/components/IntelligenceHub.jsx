@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { DataSet, Network } from 'vis-network/standalone';
 import {
   Brain as BrainIcon, Fingerprint as FingerprintIcon, Network as NetIcon, Shield as ShieldIcon, AlertTriangle as AlertIcon,
-  Search as SearchIcon, RefreshCw as RefreshIcon, Layers as LayersIcon, Eye as EyeIcon, Users as UsersIcon, ChevronRight as ChevronIcon, Activity as ActivityIcon, TrendingUp as TrendingUpIcon, Info as InfoIcon
+  Search as SearchIcon, RefreshCw as RefreshIcon, Layers as LayersIcon, Eye as EyeIcon, Users as UsersIcon, ChevronRight as ChevronIcon, Activity as ActivityIcon, TrendingUp as TrendingUpIcon, Info as InfoIcon, Database, ShieldAlert, Globe, History
 } from 'lucide-react';
 import { getIntelligenceSummary, getCampaigns, getGraphSnapshot, getForecasts, runForecasts, getTopCampaigns, getGraphStats } from '../services/api';
 import ForecastCard from './ForecastCard';
@@ -23,9 +23,10 @@ function NetworkGraph({ data }) {
       if (risk > 60) color = '#ef4444'; // malicious
       else if (risk > 30) color = '#f59e0b'; // suspicious
 
+      const nodeId = String(n.node_id || n.id || '');
       return {
-        id: n.id,
-        label: n.id.length > 12 ? n.id.slice(0, 12) + '...' : n.id,
+        id: nodeId,
+        label: nodeId.length > 12 ? nodeId.slice(0, 12) + '...' : nodeId,
         title: `${n.type} | Risk: ${risk.toFixed(1)} | Centrality: ${n.degree ?? 0}`,
         color: {
           background: '#0b1329',
@@ -96,7 +97,7 @@ function NetworkGraph({ data }) {
   return (
     <div className="relative">
       <div ref={containerRef} className="w-full h-[400px] bg-slate-950/20 rounded-xl border border-slate-900" />
-      <div className="absolute bottom-3 left-3 bg-slate-950/80 px-2.5 py-1.5 rounded-lg border border-slate-900 text-[9px] flex gap-3 text-slate-500 font-semibold uppercase">
+      <div className="absolute bottom-3 left-3 bg-slate-950/80 px-2.5 py-1.5 rounded-lg border border-slate-900 text-xs flex gap-3 text-slate-500 font-semibold uppercase">
         <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500" /> Safe</span>
         <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-amber-500" /> Suspicious</span>
         <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-red-500" /> Malicious</span>
@@ -128,9 +129,9 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
         getGraphStats()
       ]);
       setSummary(sumData);
-      setCampaigns(campData.campaigns || []);
+      setCampaigns(Array.isArray(campData) ? campData : (campData?.campaigns || []));
       setGraph(graphData);
-      setForecasts(foreData.forecasts || []);
+      setForecasts(Array.isArray(foreData) ? foreData : (foreData?.forecasts || []));
       setTopCampaigns(topCampData || []);
       setGraphStats(statsData || null);
     } catch (err) {
@@ -149,7 +150,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
     try {
       await runForecasts();
       const foreData = await getForecasts();
-      setForecasts(foreData.forecasts || []);
+      setForecasts(Array.isArray(foreData) ? foreData : (foreData?.forecasts || []));
     } catch (err) {
       console.error("Failed to run forecast simulation:", err);
     } finally {
@@ -185,8 +186,8 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
           {summary?.narrative && (
             <div className="glass p-5 border-l-4 border-l-blue-500 border border-slate-800 bg-blue-900/10 rounded-r-xl">
               <div className="flex items-center gap-2 mb-2">
-                <Info size={14} className="text-blue-400" />
-                <h3 className="text-[10px] font-bold text-slate-300 uppercase tracking-wider">Executive Intelligence Summary</h3>
+                <InfoIcon size={14} className="text-blue-400" />
+                <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider">Executive Intelligence Summary</h3>
               </div>
               <p className="text-xs text-slate-400 leading-relaxed">{summary.narrative}</p>
             </div>
@@ -205,7 +206,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                 <span className="text-xs font-mono font-bold text-blue-400">{summary?.total_urls ?? 0}</span>
               </div>
               <div className="space-y-2 mt-auto">
-                <span className="text-[9px] font-bold text-slate-500 uppercase tracking-wider block">Feed Distribution</span>
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block">Feed Distribution</span>
                 {summary?.feed_distribution && Object.entries(summary.feed_distribution).map(([lbl, count]) => (
                   <div key={lbl} className="flex justify-between items-center text-xs">
                     <span className="text-slate-400 capitalize">{lbl.toLowerCase()}</span>
@@ -248,9 +249,6 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
             </div>
           </div>
 
-
-          </div>
-
           {/* ── Graph Statistics ── */}
           {graphStats && (
             <div className="glass p-5 border border-slate-800 bg-[#070b1a]/40">
@@ -260,23 +258,23 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
               </div>
               <div className="grid grid-cols-2 md:grid-cols-5 gap-3 text-center">
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg">
-                  <div className="text-[10px] text-slate-500 uppercase">Nodes</div>
+                  <div className="text-sm text-slate-500 uppercase">Nodes</div>
                   <div className="text-sm font-mono font-bold text-slate-300 mt-1">{graphStats.total_nodes}</div>
                 </div>
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg">
-                  <div className="text-[10px] text-slate-500 uppercase">Edges</div>
+                  <div className="text-sm text-slate-500 uppercase">Edges</div>
                   <div className="text-sm font-mono font-bold text-slate-300 mt-1">{graphStats.total_edges}</div>
                 </div>
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg">
-                  <div className="text-[10px] text-slate-500 uppercase">Connected Components</div>
+                  <div className="text-sm text-slate-500 uppercase">Connected Components</div>
                   <div className="text-sm font-mono font-bold text-slate-300 mt-1">{graphStats.connected_components}</div>
                 </div>
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg">
-                  <div className="text-[10px] text-slate-500 uppercase">Largest Component</div>
+                  <div className="text-sm text-slate-500 uppercase">Largest Component</div>
                   <div className="text-sm font-mono font-bold text-slate-300 mt-1">{graphStats.largest_component}</div>
                 </div>
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg">
-                  <div className="text-[10px] text-slate-500 uppercase">Avg Connectivity</div>
+                  <div className="text-sm text-slate-500 uppercase">Avg Connectivity</div>
                   <div className="text-sm font-mono font-bold text-slate-300 mt-1">{graphStats.average_degree}</div>
                 </div>
               </div>
@@ -284,21 +282,21 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg flex items-center justify-between">
                   <div>
-                    <div className="text-[10px] text-slate-500 uppercase">Highest Influence Campaign</div>
+                    <div className="text-sm text-slate-500 uppercase">Highest Influence Campaign</div>
                     <div className="text-xs font-bold text-slate-300 mt-1">{graphStats.highest_risk_campaign?.campaign_id || "None"}</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-[10px] text-slate-500 uppercase">Influence Score</div>
+                    <div className="text-sm text-slate-500 uppercase">Influence Score</div>
                     <div className="text-sm font-mono font-bold text-red-400">{graphStats.highest_risk_campaign?.influence_score || 0}</div>
                   </div>
                 </div>
                 <div className="p-3 border border-slate-800 bg-slate-900/60 rounded-lg flex items-center justify-between">
                   <div>
-                    <div className="text-[10px] text-slate-500 uppercase">Highest PageRank</div>
+                    <div className="text-sm text-slate-500 uppercase">Highest PageRank</div>
                     <div className="text-xs font-bold text-slate-300 mt-1">{graphStats.highest_pagerank_campaign?.campaign_id || "None"}</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-[10px] text-slate-500 uppercase">Score</div>
+                    <div className="text-sm text-slate-500 uppercase">Score</div>
                     <div className="text-sm font-mono font-bold text-blue-400">{graphStats.highest_pagerank_campaign?.pagerank || 0}</div>
                   </div>
                 </div>
@@ -318,14 +316,14 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                   <div key={idx} className="flex items-center justify-between text-xs p-3 border border-slate-800 bg-slate-900/40 rounded-lg">
                     <div className="flex items-center gap-3">
                       <span className="font-mono text-slate-300">{camp.campaign_id}</span>
-                      <span className="text-[10px] text-slate-500">{camp.member_count} members</span>
+                      <span className="text-sm text-slate-500">{camp.member_count} members</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="flex items-center gap-1.5">
-                        <span className="text-[10px] uppercase text-slate-500">Influence</span>
+                        <span className="text-sm uppercase text-slate-500">Influence</span>
                         <span className="font-mono font-bold text-slate-300">{camp.influence_score}</span>
                       </div>
-                      <span className={`px-2 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider ${
+                      <span className={`px-2 py-0.5 rounded text-sm uppercase font-bold tracking-wider ${
                         camp.risk_level === 'CRITICAL' ? 'bg-red-500/10 text-red-400 border border-red-500/20' :
                         camp.risk_level === 'HIGH' ? 'bg-orange-500/10 text-orange-400 border border-orange-500/20' :
                         'bg-yellow-500/10 text-yellow-400 border border-yellow-500/20'
@@ -347,7 +345,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                   <NetIcon size={14} className="text-blue-400" />
                   <span>Behavioral Trust Network Graph</span>
                 </h3>
-                <p className="text-[10px] text-slate-500 mt-1">Zoom, drag, and interact with the threat propagation nodes.</p>
+                <p className="text-sm text-slate-500 mt-1">Zoom, drag, and interact with the threat propagation nodes.</p>
               </div>
             </div>
             <NetworkGraph data={graph} />
@@ -364,11 +362,11 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                 <div key={idx} className="flex items-center justify-between text-xs p-3 border border-slate-800 bg-slate-900/40 rounded-lg">
                   <div className="flex flex-col gap-1 truncate w-2/3">
                     <span className="text-slate-300 font-mono truncate">{detection.url}</span>
-                    <span className="text-[9px] text-slate-500">{new Date(detection.detection_date).toLocaleString()}</span>
+                    <span className="text-xs text-slate-500">{new Date(detection.detection_date).toLocaleString()}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="bg-red-500/10 text-red-400 border border-red-500/20 px-2 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider">Malicious</span>
-                    <span className="bg-slate-800 text-slate-400 border border-slate-700 px-2 py-0.5 rounded text-[10px] uppercase font-bold">{detection.feed_source}</span>
+                    <span className="bg-red-500/10 text-red-400 border border-red-500/20 px-2 py-0.5 rounded text-sm uppercase font-bold tracking-wider">Malicious</span>
+                    <span className="bg-slate-800 text-slate-400 border border-slate-700 px-2 py-0.5 rounded text-sm uppercase font-bold">{detection.feed_source}</span>
                   </div>
                 </div>
               ))}
@@ -415,9 +413,9 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                       <div className="flex items-start justify-between">
                         <div>
                           <h4 className="text-sm font-extrabold text-slate-200">{camp.name}</h4>
-                          <p className="text-[9px] text-slate-500 font-mono mt-0.5">{camp.campaign_id}</p>
+                          <p className="text-xs text-slate-500 font-mono mt-0.5">{camp.campaign_id}</p>
                         </div>
-                        <span className="px-2.5 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider bg-slate-900 border border-slate-800"
+                        <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-slate-900 border border-slate-800"
                           style={{
                             color: camp.threat_level === 'HIGH' ? '#ef4444' : camp.threat_level === 'MEDIUM' ? '#f59e0b' : '#10b981'
                           }}>
@@ -425,24 +423,24 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                         </span>
                       </div>
 
-                      <div className="grid grid-cols-3 gap-2 text-center text-[10px] bg-slate-950/20 p-2.5 rounded-lg border border-slate-900">
+                      <div className="grid grid-cols-3 gap-2 text-center text-sm bg-slate-950/20 p-2.5 rounded-lg border border-slate-900">
                         <div>
-                          <span className="text-[8px] text-slate-600 uppercase block">Size</span>
+                          <span className="text-xs text-slate-600 uppercase block">Size</span>
                           <span className="text-slate-300 font-bold">{camp.member_count} nodes</span>
                         </div>
                         <div>
-                          <span className="text-[8px] text-slate-600 uppercase block">Discovered</span>
+                          <span className="text-xs text-slate-600 uppercase block">Discovered</span>
                           <span className="text-slate-300 font-bold">{new Date(camp.first_seen).toLocaleDateString()}</span>
                         </div>
                         <div>
-                          <span className="text-[8px] text-slate-600 uppercase block">Confidence</span>
+                          <span className="text-xs text-slate-600 uppercase block">Confidence</span>
                           <span className="text-blue-400 font-bold">{Math.round((camp.confidence_score || 0) * 100)}%</span>
                         </div>
                       </div>
 
                       <div className="space-y-1.5">
-                        <span className="text-[9px] text-slate-500 font-bold uppercase block">Attributed TTP Fingerprint:</span>
-                        <div className="grid grid-cols-2 gap-2 text-[9px] bg-slate-950/30 p-2 rounded">
+                        <span className="text-xs text-slate-500 font-bold uppercase block">Attributed TTP Fingerprint:</span>
+                        <div className="grid grid-cols-2 gap-2 text-xs bg-slate-950/30 p-2 rounded">
                           <div className="truncate"><span className="text-slate-600">Keywords:</span> <span className="text-slate-300 font-mono">[{ttp.keywords?.slice(0,3).join(', ') || 'none'}]</span></div>
                           <div className="truncate"><span className="text-slate-600">TLDs:</span> <span className="text-slate-300 font-mono">[{ttp.tlds?.join(', ') || 'none'}]</span></div>
                           <div className="truncate"><span className="text-slate-600">Brands:</span> <span className="text-slate-300 font-mono">[{ttp.brands?.join(', ') || 'none'}]</span></div>
@@ -451,7 +449,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                       </div>
                     </div>
 
-                    <div className="mt-4 pt-3 border-t border-slate-900 flex items-center justify-between text-[9px] text-slate-500">
+                    <div className="mt-4 pt-3 border-t border-slate-900 flex items-center justify-between text-xs text-slate-500">
                       <span>Jaccard Similarity Index</span>
                       <div className="flex items-center gap-1 font-mono font-semibold">
                         <span className="text-blue-400">{(camp.average_similarity || 0).toFixed(3)}</span>
@@ -481,7 +479,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
             <button
               onClick={triggerSimulation}
               disabled={isSimulating}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[10px] font-bold bg-purple-600 text-white hover:bg-purple-700 transition-colors border border-purple-500/30"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-bold bg-purple-600 text-white hover:bg-purple-700 transition-colors border border-purple-500/30"
             >
               <ActivityIcon size={12} className={isSimulating ? "animate-spin" : ""} />
               <span>{isSimulating ? "Simulating Evolution..." : "Run Forecast Model"}</span>
@@ -501,7 +499,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
             <div className="glass p-5 border border-slate-800 bg-[#070b1a]/20 flex flex-col justify-between">
               <div>
                 <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Evolution Summary</h4>
-                <p className="text-[10px] text-slate-500 mt-0.5">Global predictive markers across active actors</p>
+                <p className="text-sm text-slate-500 mt-0.5">Global predictive markers across active actors</p>
               </div>
               
               <div className="space-y-3 my-4">
@@ -522,7 +520,7 @@ export default function IntelligenceHub({ activeView = 'summary' }) {
                   </span>
                 </div>
               </div>
-              <div className="text-[9px] text-slate-500 border-t border-slate-900 pt-3 italic">
+              <div className="text-xs text-slate-500 border-t border-slate-900 pt-3 italic">
                 Forecast parameters updated dynamically on new cluster observations.
               </div>
             </div>

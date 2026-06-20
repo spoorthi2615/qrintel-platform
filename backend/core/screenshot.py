@@ -55,7 +55,7 @@ def _build_driver() -> webdriver.Chrome:
         return webdriver.Chrome(options=opts)
 
 
-def capture_screenshot(url: str, timeout: int = 10) -> str | None:
+def capture_screenshot(url: str, timeout: int = 5) -> str | None:
     """
     Launch headless Chrome, navigate to the URL, and capture a screenshot.
 

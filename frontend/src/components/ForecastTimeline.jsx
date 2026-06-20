@@ -13,7 +13,7 @@ export default function ForecastTimeline({ data }) {
     <div className="glass p-5 space-y-4">
       <div>
         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Evolution Dynamics &amp; Threat Momentum</h4>
-        <p className="text-[10px] text-slate-500 mt-0.5">Historical tracking of campaign expansion velocities and mutation rate variances</p>
+        <p className="text-sm text-slate-500 mt-0.5">Historical tracking of campaign expansion velocities and mutation rate variances</p>
       </div>
 
       <ResponsiveContainer width="100%" height={180}>

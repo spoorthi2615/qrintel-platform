@@ -4,7 +4,7 @@ const BASE_URL = window.location.port === '5173' ? 'http://localhost:5000/api' :
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 30000,
+  timeout: 60000,
 });
 
 // ── Scan endpoints ───────────────────────────────────────────────────────────
@@ -84,6 +84,9 @@ export const getEvaluationResults = () =>
 
 export const runEvaluationBenchmark = () =>
   api.post('/intelligence/evaluation/run').then((r) => r.data);
+
+export const exportEvaluationCsv = () =>
+  api.get('/intelligence/evaluation/export', { responseType: 'blob' }).then((r) => r.data);
 
 export default api;
 

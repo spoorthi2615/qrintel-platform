@@ -187,5 +187,6 @@ def run_all_forecasts(conn: sqlite3.Connection) -> List[dict]:
                 })
             )
         )
+        results.append(fc)
     conn.commit()
     return results

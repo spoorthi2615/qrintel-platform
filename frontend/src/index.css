@@ -8,6 +8,9 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
+html {
+  font-size: 18px; /* Uniformly scales up all tailwind rem units */
+}
 
 body {
   font-family: 'Inter', sans-serif;
